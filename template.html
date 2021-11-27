@@ -8,11 +8,10 @@
     <!-- Material Icon CDN -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Materialize CSS CDN -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
-    <link rel="stylesheet" href="css/materialize.min.css">
-
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
     <!-- Your custom styles -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+      <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- Used as an example only to position the footer at the end of the page.
     You can delete these styles or move it to your custom css file -->
     <!-- <style>
@@ -28,7 +27,7 @@
   </head>
   <body>
     <header>
-      <nav class="blue-grey lighten-5">
+      <nav class="cyan">
         <div class="nav-wrapper">
           <div class="container">
             <a href="#" class="brand-logo">LOGO</a>
@@ -41,14 +40,14 @@
             </ul>
             <ul class="side-nav" id="mobile-menu">
               <li>
-                <div class="userView">
-                  <div class="background">
+                <!-- <div class="userView"> -->
+                  <!-- <div class="background"> -->
                     <!-- <img src="http://lorempixel.com/output/abstract-q-c-640-480-10.jpg" alt="Background Sidenav"> -->
-                  </div>
-                  <!-- <a href="#!user"><img class="circle" src="http://lorempixel.com/output/people-q-c-640-480-9.jpg" alt="User Image Sidenav"></a> -->
+                  <!-- </div> -->
+                  <!-- <a hrefe="#!user"><img class="circle" src="http://lorempixel.com/output/people-q-c-640-480-9.jpg" alt="User Image Sidenav"></a> -->
                   <!-- <a href="#!name"><span class="white-text name">John Doe</span></a> -->
                   <!-- <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a> -->
-                </div>
+                <!-- </div> -->
               </li>
               <li><a href="#">item1</a></li>
               <li><a href="#">item2</a></li>
@@ -117,11 +116,9 @@
  <div class="card-panel teal">
             <span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
         </div>
- <div class="card-panel teal">
+          <div class="card-panel teal">
             <span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
         </div>
-
-
       </div>
       <div class="section">
           <div class="row">
@@ -191,7 +188,7 @@ Usuwanie usterek. Pomimo tego, że maszyny  i urządzenia wykorzystywane w przem
     <!-- jQuery CDN -->
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!-- Materialize JS CDN -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
       <script src="js/materialize.js"></script>
     <script>
         // $('.carousel.carousel-slider').carousel({
@@ -225,10 +222,10 @@ Usuwanie usterek. Pomimo tego, że maszyny  i urządzenia wykorzystywane w przem
       $("document").ready(function(){
         $(".button-collapse").sideNav();
 
-//        $('.carousel.carousel-slider').carousel({
-//    fullWidth: true,
-//    indicators: true
-//  });
+        $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
 
         //  $('.carousel.carousel-slider').carousel({
             // fullWidth: true
