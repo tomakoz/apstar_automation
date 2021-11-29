@@ -14,44 +14,58 @@
       <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- Used as an example only to position the footer at the end of the page.
     You can delete these styles or move it to your custom css file -->
-    <!-- <style>
-      body {
+    <style>
+      /* body {
         display: flex;
         min-height: 100vh;
         flex-direction: column;
         }
       main {
         flex: 1 0 auto;
+      } */
+      /* .brand-logo {
+        top: 5px;
       }
-    </style> -->
+      .brand-title {
+        position: absolute;
+        left: 50px;
+      } */
+      .nav-wrapper {
+        background: #D3D5D7;
+      }
+      .nav-wrapper 
+    </style> 
   </head>
   <body>
     <header>
-      <nav class="cyan">
+      <nav class="">
         <div class="nav-wrapper">
           <div class="container">
-            <a href="#" class="brand-logo">LOGO</a>
-            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="#">item1</a></li>
+            <!-- <div class="brand-logo"> -->
+            <a href="#" class="brand-logo left"><img src="img/logo.png" class="responsive-img" alt="APSTAR Logo">APSTAR</a>
+            <!-- <a href="#" class="">APSTAR</a> -->
+            <!-- </div> -->
+            <a href="#" data-activates="mobile-menu" class="button-collapse right" data-target="mobile-menu" ><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down tabs tabs-transparent">
+              <li><a href="#">Strona główna</a></li>
               <li><a href="#">item2</a></li>
               <li><a href="#">item3</a></li>
               <li><a href="#">item4</a></li>
             </ul>
-            <ul class="side-nav" id="mobile-menu">
+            <ul class="nav-content" id="mobile-menu">
               <li>
-                <!-- <div class="userView"> -->
-                  <!-- <div class="background"> -->
-                    <!-- <img src="http://lorempixel.com/output/abstract-q-c-640-480-10.jpg" alt="Background Sidenav"> -->
-                  <!-- </div> -->
-                  <!-- <a hrefe="#!user"><img class="circle" src="http://lorempixel.com/output/people-q-c-640-480-9.jpg" alt="User Image Sidenav"></a> -->
-                  <!-- <a href="#!name"><span class="white-text name">John Doe</span></a> -->
-                  <!-- <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a> -->
-                <!-- </div> -->
+                <div class="userView">
+                  <div class="background">
+                    <img src="img/abstract-q-c-640-480-10.jpg" alt="Background Sidenav">
+                  </div>
+                  <a hrefe="#!user"><img class="circle" src="img/people-q-c-640-480-9.jpg" alt="User Image Sidenav"></a>
+                  <a href="#!name"><span class="white-text name">John Doe</span></a>
+                  <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div>
               </li>
-              <li><a href="#">item1</a></li>
-              <li><a href="#">item2</a></li>
-              <li><a href="#">item3</a></li>
+              <li><a href="#">Strona główna</a></li>
+              <li><a href="#">O Firmie</a></li>
+              <li><a href="#">Referencje</a></li>
               <li><a href="#">item4</a></li>
             </ul>
           </div>
@@ -186,12 +200,18 @@ Usuwanie usterek. Pomimo tego, że maszyny  i urządzenia wykorzystywane w przem
       </div>
     </footer>
     <!-- jQuery CDN -->
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Materialize JS CDN -->
       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
-      <script src="js/materialize.js"></script>
+      <!-- <script src="js/materialize.js"></script> -->
+      <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          
     <script>
-        // $('.carousel.carousel-slider').carousel({
+      /*  // $('.carousel.carousel-slider').carousel({
             // fullWidth: true
         // :});
         // document.addEventListener('DOMContentLoaded', function() {
@@ -218,14 +238,14 @@ Usuwanie usterek. Pomimo tego, że maszyny  i urządzenia wykorzystywane w przem
     // $('.carousel.carousel-slider').carousel({
     // fullWidth: true,
     // indicators: true
-  // });
+  // });*/
       $("document").ready(function(){
         $(".button-collapse").sideNav();
 
-        $('.carousel.carousel-slider').carousel({
+        /* $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
-  });
+  }); */
 
         //  $('.carousel.carousel-slider').carousel({
             // fullWidth: true
