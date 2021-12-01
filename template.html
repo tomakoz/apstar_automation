@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Title of the document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/materialize.min.css">
+<!--     <link rel="stylesheet" href="css/materialize.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
     <link rel="stylesheet" href="css/style.css">
         <script>
                 var inStart = '1638233886.402995316';
@@ -66,28 +68,37 @@
         Misją APSTAR jest wspieranie firm produkcyjnych, obiektów technologicznych i producentów energii we wdrażaniu innowacyjnych procesów automatyki przemysłowej. Stosując najnowocześniejsze technologie i działając według najwyższych standardów, zapewniamy naszym partnerom niezawodność działania, energooszczędność i optymalizację procesów.
 
         <a href="#" title="Czytaj dalej o Misji APSTAR" class="readmore white-text deep-orange darken-2 centerz-depth-5 waves-effect waves-light btn right">czytaj dalej</a></div>
-        <div class="col l8 m8 teal grey white-text" style="padding-bottom:15px;">
-        <div class="carousel carousel-slider" data-indicators="true">
-            <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        <div class="col l8 m8 z-depth-1">
+        <div id="slider" class="carousel carousel-slider" data-indicators="true" data-ride="carousel">
+<!--             <div class="carousel-fixed-item center"> -->
+<!--                 <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+<!--             </div> -->
+            <div class="carousel-item active" href="#one!">
+                <img src="img/portfolio-18_10.png" width="577px" height="426px" alt="Automatyka procesowa"/>
+<!--                 <h2>Automatyka procesowa</h2> -->
+<!--                 <p class="white-text"> -->
+<!--                     <img src="img/portfolio-18_10.png" alt="Automatyka procesowa"/> -->
+<!--                 </p> -->
             </div>
-            <div class="carousel-item red white-text" href="#one!">
-                <h2>Automatyka procesowa</h2>
-                <p class="white-text">
-                    <img src="img/portfolio-18_10.png" alt="Automatyka procesowa"/>
-                </p>
-            </div>
-            <div class="carousel-item amber white-text" href="#two!">
-            <h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
+            <div class="carousel-item item amber white-text" href="#two!">
+<!--             <h2>Second Panel</h2> -->
+<!--             <p class="white-text"> -->
+                <a href="#">
+                    <img src="img/portfolio-12_1.jpg" width="577px" height="426px" alt="Portfolio" />
+                </a>
+<!--                 </p> -->
         </div>
         <div class="carousel-item green white-text" href="#three!">
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
+<!--             <h2>Third Panel</h2> -->
+<!--             <p class="white-text"> -->
+            <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio" />
+<!--             </p> -->
         </div>
         <div class="carousel-item blue white-text" href="#four!">
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
+<!--             <h2>Fourth Panel</h2> -->
+<!--             <p class="white-text"> -->
+            <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio"/>
+<!--             </p> -->
         </div>
     </div>
     </div>
@@ -141,22 +152,23 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     </div>
     </div>
 </div>
-    <div class="section white z-depth-5"  style="margin:0;padding:0;" id="nowoczesnosc">
-        <div class="row" style="margin:0;padding:0;">
-        <div class="col s12 l5 m5 " style="margin:0;padding:0;">
-            <img src="img/diagram-1.jpg" class="responsive-img z-depth-5" alt="Ładny obrazek"/>
+    <div class="section white" id="nowoczesnosc">
+        <div class="row">
+        <div class="col l6 m6">
+            <img src="img/portfolio-18_10.png" class="responsive-img" alt="Ładny obrazek"/>
         </div>
-        <div class="col s12 l7 m7 black-text">
-            <h4 class="center">Nowoczesność i innowacyjność:</h4>
+        <div class="col s12 l6 m6 black-text">
+            <h4>Nowoczesność i innowacyjność:</h4>
             <p>Stosujemy rozwiązania oparte o sieci przemysłowe Profinet, Modbus TCP i EtherCAT. Są to sieci bazujące na niezawodnym i szeroko rozpowszechnionym standardzie Ethernet.</p>
             <h5>HMI oraz SCADA – wizualizacja procesu oraz zdalne sterowanie.</h5>
             <p>Nowoczesne technologie umożliwiają zdalne sterowanie, graficzne przedstawienie procesu, rejestrację i archiwizację pomiarów, czasów pracy i innych parametrów procesu.</p>
-            <h5 class="card-title">CAD, Python, XML </h5>
+            <h5>CAD, Python, XML </h5>
             <p>W procesie projektowania i realizacji wspomagamy się programem do obliczeń numerycznych SciLab, do typowych zadań stosujemy skrypty napisane w Python. Skracamy dzięki temu czas realizacji głównej części projektu i skupiamy się na innowacyjności i jakości.</p>
         </div>
         </div>
     </div>
 
+    <div class="blue-gray lighten-5 gray-text darken-5-text">
     <div class="container" id="dlaczego">
     <div class="row">
         <div class="col l12 m12 s12">
@@ -167,6 +179,7 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
             <p>Jeśli jesteś właścicielem linii produkcyjnej i chcesz ją usprawnić, zwiększyć wydajność lub poszukujesz oszczędności to świetnie trafiłeś.</p>
             <p>Jeśli poszukujesz serwisu maszyn, chcesz mieć pewność, że wszystko pod kątem automatyki jest sprawne i  nie grożą Ci przestoje, APSTAR skutecznie się tym zajmie.</p>
         </div>
+    </div>
     </div>
     </div>
 
@@ -238,10 +251,10 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
     <!-- <script src="js/materialize.js"></script> -->
     <!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 
 <!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <script>
     /*  // $('.carousel.carousel-slider').carousel({
@@ -273,12 +286,22 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     // indicators: true
 // });*/
     $("document").ready(function(){
+//         console.log("init carousel");
+        $('#slider').carousel({
+            'fullWidth': true,
+            'indicators': false,
+            'set': 3.
+
+        });
+    });
+
+    $("document").ready(function(){
         $(".button-collapse").sideNav();
 
-//     $('.carousel .carousel-slider').carousel({
-//     fullWidth: false,
-//     indicators: true
-// });
+//     $('.carousel.carousel-slider').carousel({
+//         set
+//     });
+
 
         //  $('.carousel.carousel-slider').carousel({
             // fullWidth: true
