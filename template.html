@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Title of the document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/materialize.min.css">
+<!--     <link rel="stylesheet" href="css/materialize.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
     <link rel="stylesheet" href="css/style.css">
         <script>
                 var inStart = '1638233886.402995316';
@@ -42,16 +44,16 @@
                 <a href="#" class="left blue-grey-text darken-4" style="font-size:27px;font-weight: 600;" >APSTAR</a>
                 <a href="#" data-activates="mobile-menu" class="button-collapse right" data-target="mobile-menu" ><i class="material-icons">menu</i></a>
                 <ul class="hide-on-med-and-down right blue-grey-text darken-4">
-            <li><a href="#" style="" class="blue-grey-text darken-4 z-depth-5">Strona główna</a></li>
-            <li><a href="#" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Oferta</a></li>
-            <li><a href="#" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Referencje</a></li>
-            <li><a href="#" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Kontakt</a></li>
+            <li><a href="/" style="" class="blue-grey-text darken-4 z-depth-5">Strona główna</a></li>
+            <li><a href="#oferta" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Oferta</a></li>
+            <li><a href="#referencje" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Referencje</a></li>
+            <li><a href="#kontakt" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Kontakt</a></li>
             </ul>
             <ul class="nav-content" id="mobile-menu">
-            <li><a href="#">Strona główna</a></li>
-            <li><a href="#">Oferta</a></li>
-            <li><a href="#">Referencje</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="#oferta">Oferta</a></li>
+            <li><a href="#referencje">Referencje</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
             </ul>
 </div>
 </div>
@@ -66,66 +68,47 @@
         Misją APSTAR jest wspieranie firm produkcyjnych, obiektów technologicznych i producentów energii we wdrażaniu innowacyjnych procesów automatyki przemysłowej. Stosując najnowocześniejsze technologie i działając według najwyższych standardów, zapewniamy naszym partnerom niezawodność działania, energooszczędność i optymalizację procesów.
 
         <a href="#" title="Czytaj dalej o Misji APSTAR" class="readmore white-text deep-orange darken-2 centerz-depth-5 waves-effect waves-light btn right">czytaj dalej</a></div>
-        <div class="col l8 m8 teal grey white-text" style="padding-bottom:15px;">
-        <div class="carousel carousel-slider" data-indicators="true">
-            <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        <div class="col l8 m8 z-depth-1">
+        <div id="slider" class="carousel carousel-slider" data-indicators="true" data-ride="carousel">
+<!--             <div class="carousel-fixed-item center"> -->
+<!--                 <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
+<!--             </div> -->
+            <div class="carousel-item active" href="#one!">
+                <img src="img/portfolio-18_10.png" width="577px" height="426px" alt="Automatyka procesowa"/>
+<!--                 <h2>Automatyka procesowa</h2> -->
+<!--                 <p class="white-text"> -->
+<!--                     <img src="img/portfolio-18_10.png" alt="Automatyka procesowa"/> -->
+<!--                 </p> -->
             </div>
-            <div class="carousel-item red white-text" href="#one!">
-                <h2>First Panel</h2>
-                <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item amber white-text" href="#two!">
-            <h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
+            <div class="carousel-item item amber white-text" href="#two!">
+<!--             <h2>Second Panel</h2> -->
+<!--             <p class="white-text"> -->
+                <a href="#">
+                    <img src="img/portfolio-12_1.jpg" width="577px" height="426px" alt="Portfolio" />
+                </a>
+<!--                 </p> -->
         </div>
         <div class="carousel-item green white-text" href="#three!">
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
+<!--             <h2>Third Panel</h2> -->
+<!--             <p class="white-text"> -->
+            <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio" />
+<!--             </p> -->
         </div>
         <div class="carousel-item blue white-text" href="#four!">
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
+<!--             <h2>Fourth Panel</h2> -->
+<!--             <p class="white-text"> -->
+            <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio"/>
+<!--             </p> -->
         </div>
     </div>
     </div>
                 </div>
         </div>
     </div>
-
-    <!-- Your content here -->
-<!--    <div class="container">
-        <div class="row">
-        <div class="col s12 m4 l4 blue-text text-darken-2 teal lighten-5">
-<span class="grey-text lighten-5"></span>
-
-        </div>
-        <div class="col s12 m4 l4">
-<span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
-
-        </div>
-        <div class="col s12 m4 l4 teal lighten-5">
-<span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
-
-        </div>
-        </div>
-
-    </div>-->
-<!--    <div class="section">
-        <div class="card-panel teal lighten-5">
-            <span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
-        </div>
-<div class="card-panel teal">
-            <span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
-        </div>
-        <div class="card-panel teal">
-            <span class="white-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
-        </div>
-    </div>-->
-    <div class="section white z-depth-5">
+    <div class="section white z-depth-5" id="wyroznione">
         <div class="row">
         <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-5 z-depth-3">
+    <div class="card blue-grey darken-5 z-depth-3" id="automatyka_procesowa">
         <div class="card-content white-text">
         <span class="card-title">Automatyka procesowa</span>
         <p>Tam gdzie ważne są parametry procesu technologicznego jak: temperatura, ciśnienie, wilgotność, stężenie oraz inne mierzalne wielkości fizyczne.
@@ -138,7 +121,7 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     </div>
     </div>
     <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-1 z-depth-3">
+    <div class="card blue-grey darken-1 z-depth-3" id="automatyka_produkcji">
         <div class="card-content white-text">
         <span class="card-title">Automatyka produkcji</span>
         <p>
@@ -154,7 +137,7 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     </div>
 </div>
     <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-3 z-depth-3">
+    <div class="card blue-grey darken-3 z-depth-3" id="serwis_maszyn">
         <div class="card-content white-text">
         <span class="card-title">Serwis maszyn</span>
         <p>
@@ -169,35 +152,53 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     </div>
     </div>
 </div>
-    <div class="section blue-grey darken-4 z-depth-5">
+    <div class="section white" id="nowoczesnosc">
         <div class="row">
-        <div class="col s12 l6 m6">
-            <img src="img/portfolio-20_1.png" class="responsive-img" alt="Ładny obrazek"/>
+        <div class="col l6 m6">
+            <img src="img/portfolio-18_10.png" class="responsive-img" alt="Ładny obrazek"/>
         </div>
-        <div class="col s12 l6 m6 white-text">
-            <h2>Nowoczesność i innowacyjność:</h2>
+        <div class="col s12 l6 m6 black-text">
+            <h4>Nowoczesność i innowacyjność:</h4>
             <p>Stosujemy rozwiązania oparte o sieci przemysłowe Profinet, Modbus TCP i EtherCAT. Są to sieci bazujące na niezawodnym i szeroko rozpowszechnionym standardzie Ethernet.</p>
-            <h4>HMI oraz SCADA – wizualizacja procesu oraz zdalne sterowanie.</h4>
+            <h5>HMI oraz SCADA – wizualizacja procesu oraz zdalne sterowanie.</h5>
             <p>Nowoczesne technologie umożliwiają zdalne sterowanie, graficzne przedstawienie procesu, rejestrację i archiwizację pomiarów, czasów pracy i innych parametrów procesu.</p>
-            <h3 class="card-title">CAD, Python, XML </h3>
+            <h5>CAD, Python, XML </h5>
             <p>W procesie projektowania i realizacji wspomagamy się programem do obliczeń numerycznych SciLab, do typowych zadań stosujemy skrypty napisane w Python. Skracamy dzięki temu czas realizacji głównej części projektu i skupiamy się na innowacyjności i jakości.</p>
         </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="blue-gray lighten-5 gray-text darken-5-text">
+    <div class="container" id="dlaczego">
     <div class="row">
         <div class="col l12 m12 s12">
         <h2>Dlaczego warto wybrać APSTAR</h2>
-<p>Układy automatycznej regulacji oraz wizualizacja procesu to najważniejsze elementy współczesnych maszyn i linii produkcyjnych. To one decydują o poprawności działania, wydajności i niezawodności. Świetnie zaprojektowane i wykonane transportery, drogie i niezawodne zawory regulacyjne albo silniki z superdokładnymi enkoderami i falownikami same nie zaczną działać. Działanie całego systemu jest więc oceniane przez pryzmat automatyki.</p>
-<p>Dlatego warto wybrać firmę, która ma doświadczenie potwierdzone referencjami oraz świetne pomysły.</p>
-<p>Jeśli budujesz albo modernizujesz maszyny i instalacje to dzięki nam Twoje inwestycje zyskają nową lepszą jakość i uznanie w oczach klientów.</p>
-<p>Jeśli jesteś właścicielem linii produkcyjnej i chcesz ją usprawnić, zwiększyć wydajność lub poszukujesz oszczędności to świetnie trafiłeś.</p>
-<p>Jeśli poszukujesz serwisu maszyn, chcesz mieć pewność, że wszystko pod kątem automatyki jest sprawne i  nie grożą Ci przestoje, APSTAR skutecznie się tym zajmie.</p>
+            <p>Układy automatycznej regulacji oraz wizualizacja procesu to najważniejsze elementy współczesnych maszyn i linii produkcyjnych. To one decydują o poprawności działania, wydajności i niezawodności. Świetnie zaprojektowane i wykonane transportery, drogie i niezawodne zawory regulacyjne albo silniki z superdokładnymi enkoderami i falownikami same nie zaczną działać. Działanie całego systemu jest więc oceniane przez pryzmat automatyki.</p>
+            <p>Dlatego warto wybrać firmę, która ma doświadczenie potwierdzone referencjami oraz świetne pomysły.</p>
+            <p>Jeśli budujesz albo modernizujesz maszyny i instalacje to dzięki nam Twoje inwestycje zyskają nową lepszą jakość i uznanie w oczach klientów.</p>
+            <p>Jeśli jesteś właścicielem linii produkcyjnej i chcesz ją usprawnić, zwiększyć wydajność lub poszukujesz oszczędności to świetnie trafiłeś.</p>
+            <p>Jeśli poszukujesz serwisu maszyn, chcesz mieć pewność, że wszystko pod kątem automatyki jest sprawne i  nie grożą Ci przestoje, APSTAR skutecznie się tym zajmie.</p>
         </div>
     </div>
     </div>
-    <div class="section blue-grey white-text" id="oferta">
+    </div>
+
+    <div class="blue-grey darken-4 grey-text" id="oferta">
+        <div class="container">
+            <div class="row" style="margin:0; padding:0;">
+                <div class="col s12 l4 m4 z-depth-5">
+                    <h2 class="">REFRENCJE</h2>
+                    <p class="blue-grey darken-4 grey-text">Odznaczamy się solidnością wykonania i terminowym realizowaniem projektów. Firmy, które skorzystały z naszych usług są zadowolone z efektów końcowych. Stosujemy sprawdzony  sprzęt, który gwarantuje, że instalacje pracują niezawodnie jeszcze długo po zakończeniu okresu gwarancyjnego. Intuicyjny interfejs graficzny wizualizacji sprawia, że obsługa jest prosta, a informacje prezentowane są wyraźnie i czytelnie. Zaufały nam firmy z różnych branż takich jak ciepłownictwo, oczyszczanie ścieków, przemysł przetwórczy.
+                    </p>
+                </div>
+                <div class="col s12 l8 m8 blue-gray darken-5 blue-grey-text lighten-5-text z-depth-5">
+<!--                     <img src="img/portfolio-18_10.png" class="responsive-img"/> -->
+                    <img src="img/portfolio-18_11.png" alt="referencje" class="responsive-img"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section blue-grey grey-text" id="oferta">
         <div class="container">
         <div class="row">
             <div class="col s12 l12 m12">
@@ -205,21 +206,20 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
             <h4>Specjalizujemy się w układach sterowania dla:</h4>
             <ul>
             <li>kotłowni węglowych i gazowych</li>
-<li>instalacji przygotowania wody technologicznej (wymienniki ciepła i zawory do regulacji ciśnienia lub przepływu)</li>
-<li>pomp ciepła</li>
-<li>klimatyzacji przemysłowych (regulacja temperatury i wilgotności)</li>
-<li>pompowni</li>
-<li>instalacji grzania i suszenia np. lakierowanych elementów albo surowców (drewno, trociny)</li>
-<li>przemysłu spożywczego</li>
-</ul>
-<h5>Poza automatyką procesową realizujemy również automatykę z kategorii „start-stop” czyli np.:</h5>
-<ul>
-    <li>transport wewnętrzny – transportery taśmowe, podnośniki, paletyzacja, załadunek / rozładunek</li>
-    <li>modernizacja i naprawa maszyn produkowanych seryjnie – pilarki, piece grzewcze,</li> mieszalniki, systemy ważenia itp.</li>
-    <li>maszyny produkcyjne – cięcie, pakowanie, zbijanie, butelkowanie itp.</li>
-</ul>
-<h5>Dodatkową gałęzią naszych usług jest naprawa i serwis parku maszynowego. Jeśli Twoja maszyna przestała działać,  przywrócimy ją do życia, a w przypadku poważnego problemu zaproponujemy rozwiązanie, aby uniknąć usterek w przyszłości.</h5>
-
+            <li>instalacji przygotowania wody technologicznej (wymienniki ciepła i zawory do regulacji ciśnienia lub przepływu)</li>
+            <li>pomp ciepła</li>
+            <li>klimatyzacji przemysłowych (regulacja temperatury i wilgotności)</li>
+            <li>pompowni</li>
+            <li>instalacji grzania i suszenia np. lakierowanych elementów albo surowców (drewno, trociny)</li>
+            <li>przemysłu spożywczego</li>
+            </ul>
+            <h5>Poza automatyką procesową realizujemy również automatykę z kategorii „start-stop” czyli np.:</h5>
+            <ul>
+                <li>transport wewnętrzny – transportery taśmowe, podnośniki, paletyzacja, załadunek / rozładunek</li>
+                <li>modernizacja i naprawa maszyn produkowanych seryjnie – pilarki, piece grzewcze,</li> mieszalniki, systemy ważenia itp.</li>
+                <li>maszyny produkcyjne – cięcie, pakowanie, zbijanie, butelkowanie itp.</li>
+            </ul>
+            <p>Dodatkową gałęzią naszych usług jest naprawa i serwis parku maszynowego. Jeśli Twoja maszyna przestała działać,  przywrócimy ją do życia, a w przypadku poważnego problemu zaproponujemy rozwiązanie, aby uniknąć usterek w przyszłości.</p>
 </div>
             </div>
         </div>
@@ -251,10 +251,10 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
     <!-- <script src="js/materialize.js"></script> -->
     <!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 
 <!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <script>
     /*  // $('.carousel.carousel-slider').carousel({
@@ -286,12 +286,22 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     // indicators: true
 // });*/
     $("document").ready(function(){
+//         console.log("init carousel");
+        $('#slider').carousel({
+            'fullWidth': true,
+            'indicators': false,
+            'set': 3.
+
+        });
+    });
+
+    $("document").ready(function(){
         $(".button-collapse").sideNav();
 
-//     $('.carousel .carousel-slider').carousel({
-//     fullWidth: false,
-//     indicators: true
-// });
+//     $('.carousel.carousel-slider').carousel({
+//         set
+//     });
+
 
         //  $('.carousel.carousel-slider').carousel({
             // fullWidth: true
