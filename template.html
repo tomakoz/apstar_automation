@@ -4,34 +4,16 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Title of the document</title>
+    <title>APSTAR - Karol Starczak</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--     <link rel="stylesheet" href="css/materialize.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
         <script>
                 var inStart = '1638233886.402995316';
         </script>
     <style>
-    /* body {
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
-        }
-    main {
-        flex: 1 0 auto;
-    } */
-    /* .brand-logo {
-        top: 5px;
-    }
-    .brand-title {
-        position: absolute;
-        left: 50px;
-    } */
-    /* .nav-wrapper { */
-        /* background: #D3D5D7; */
-    /* } */
     </style> 
 </head>
 <body>
@@ -50,13 +32,13 @@
             <li><a href="#kontakt" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Kontakt</a></li>
             </ul>
             <ul class="nav-content" id="mobile-menu">
-            <li><a href="/">Strona główna</a></li>
-            <li><a href="#oferta">Oferta</a></li>
-            <li><a href="#referencje">Referencje</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="/">Strona główna</a></li>
+                <li><a href="#oferta">Oferta</a></li>
+                <li><a href="#referencje">Referencje</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
             </ul>
-</div>
-</div>
+        </div>
+    </div>
 </div>
     </nav>
     </header>
@@ -68,37 +50,21 @@
         Misją APSTAR jest wspieranie firm produkcyjnych, obiektów technologicznych i producentów energii we wdrażaniu innowacyjnych procesów automatyki przemysłowej. Stosując najnowocześniejsze technologie i działając według najwyższych standardów, zapewniamy naszym partnerom niezawodność działania, energooszczędność i optymalizację procesów.
 
         <a href="#" title="Czytaj dalej o Misji APSTAR" class="readmore white-text deep-orange darken-2 centerz-depth-5 waves-effect waves-light btn right">czytaj dalej</a></div>
-        <div class="col l8 m8 z-depth-1">
+        <div class="col l8 m8 z-depth-1 hide-on-small-only">
         <div id="slider" class="carousel carousel-slider" data-indicators="true" data-ride="carousel">
-<!--             <div class="carousel-fixed-item center"> -->
-<!--                 <a class="btn waves-effect white grey-text darken-text-2">button</a> -->
-<!--             </div> -->
             <div class="carousel-item active" href="#one!">
                 <img src="img/portfolio-18_10.png" width="577px" height="426px" alt="Automatyka procesowa"/>
-<!--                 <h2>Automatyka procesowa</h2> -->
-<!--                 <p class="white-text"> -->
-<!--                     <img src="img/portfolio-18_10.png" alt="Automatyka procesowa"/> -->
-<!--                 </p> -->
-            </div>
-            <div class="carousel-item item amber white-text" href="#two!">
-<!--             <h2>Second Panel</h2> -->
-<!--             <p class="white-text"> -->
-                <a href="#">
-                    <img src="img/portfolio-12_1.jpg" width="577px" height="426px" alt="Portfolio" />
-                </a>
-<!--                 </p> -->
+        </div>
+        <div class="carousel-item item amber white-text" href="#two!">
+            <a href="#referencje" title="Referencje APSTAR Automation">
+                <img src="img/portfolio-12_1.jpg" width="577px" height="426px" alt="Referencje APSTAR Automation" />
+            </a>
         </div>
         <div class="carousel-item green white-text" href="#three!">
-<!--             <h2>Third Panel</h2> -->
-<!--             <p class="white-text"> -->
             <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio" />
-<!--             </p> -->
         </div>
         <div class="carousel-item blue white-text" href="#four!">
-<!--             <h2>Fourth Panel</h2> -->
-<!--             <p class="white-text"> -->
             <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio"/>
-<!--             </p> -->
         </div>
     </div>
     </div>
@@ -108,11 +74,11 @@
     <div class="section white z-depth-5" id="wyroznione">
         <div class="row">
         <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-5 z-depth-3" id="automatyka_procesowa">
+    <div class="card blue-grey darken-5 z-depth-3 hoverable" id="automatyka_procesowa">
         <div class="card-content white-text">
         <span class="card-title">Automatyka procesowa</span>
-        <p>Tam gdzie ważne są parametry procesu technologicznego jak: temperatura, ciśnienie, wilgotność, stężenie oraz inne mierzalne wielkości fizyczne.
-Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiernicza, chemiczna </p>
+            <p>Tam gdzie ważne są parametry procesu technologicznego jak: temperatura, ciśnienie, wilgotność, stężenie oraz inne mierzalne wielkości fizyczne.<br/>
+            Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiernicza, chemiczna </p>
         </div>
         <div class="card-action">
         <a href="#">This is a link</a>
@@ -121,23 +87,23 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     </div>
     </div>
     <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-1 z-depth-3" id="automatyka_produkcji">
+    <div class="card blue-grey darken-1 z-depth-3 hoverable" id="automatyka_produkcji">
         <div class="card-content white-text">
-        <span class="card-title">Automatyka produkcji</span>
-        <p>
-        Automatyzacja linii produkcyjnych: sortowania, ważenia, butelkowania, etykietowania, kontroli jakości itp.<br/>
-        Przy pomocy odpowiednio dobranych czujników i napędów umożliwiamy taki przebieg produkcji, aby podnieść wydajność , zmniejszyć koszty, a przez to wpłynąć na poprawę jakości produktów.<br/>
-        Automatyzacja transportu wewnętrznego: przenośniki taśmowe, ślimakowe i transportery rolkowe.<br/>
-        Automatyzacja magazynowania.<br/>
-        </p>
+            <span class="card-title">Automatyka produkcji</span>
+            <p>
+            Automatyzacja linii produkcyjnych: sortowania, ważenia, butelkowania, etykietowania, kontroli jakości itp.<br/>
+            Przy pomocy odpowiednio dobranych czujników i napędów umożliwiamy taki przebieg produkcji, aby podnieść wydajność , zmniejszyć koszty, a przez to wpłynąć na poprawę jakości produktów.<br/>
+            Automatyzacja transportu wewnętrznego: przenośniki taśmowe, ślimakowe i transportery rolkowe.<br/>
+            Automatyzacja magazynowania.<br/>
+            </p>
         </div>
         <div class="card-action">
-        <a href="#">This is a link</a>
+            <a href="#">This is a link</a>
         </div>
     </div>
 </div>
     <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-3 z-depth-3" id="serwis_maszyn">
+    <div class="card blue-grey darken-3 z-depth-3 hoverable" id="serwis_maszyn">
         <div class="card-content white-text">
         <span class="card-title">Serwis maszyn</span>
         <p>
@@ -153,7 +119,7 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     </div>
 </div>
     <div class="section white" id="nowoczesnosc">
-        <div class="row">
+        <div class="row valign-wrapper">
         <div class="col l6 m6">
             <img src="img/portfolio-18_10.png" class="responsive-img" alt="Ładny obrazek"/>
         </div>
@@ -170,9 +136,10 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
 
     <div class="blue-gray lighten-5 gray-text darken-5-text">
     <div class="container" id="dlaczego">
-    <div class="row">
+    <div class="row valign-wrapper">
         <div class="col l12 m12 s12">
-        <h2>Dlaczego warto wybrać APSTAR</h2>
+            <h2>Dlaczego warto wybrać APSTAR</h2>
+            <div class="divider"></div>
             <p>Układy automatycznej regulacji oraz wizualizacja procesu to najważniejsze elementy współczesnych maszyn i linii produkcyjnych. To one decydują o poprawności działania, wydajności i niezawodności. Świetnie zaprojektowane i wykonane transportery, drogie i niezawodne zawory regulacyjne albo silniki z superdokładnymi enkoderami i falownikami same nie zaczną działać. Działanie całego systemu jest więc oceniane przez pryzmat automatyki.</p>
             <p>Dlatego warto wybrać firmę, która ma doświadczenie potwierdzone referencjami oraz świetne pomysły.</p>
             <p>Jeśli budujesz albo modernizujesz maszyny i instalacje to dzięki nam Twoje inwestycje zyskają nową lepszą jakość i uznanie w oczach klientów.</p>
@@ -183,26 +150,13 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     </div>
     </div>
 
-    <div class="blue-grey darken-4 grey-text" id="referencje">
-        <div class="container">
-            <div class="row" style="margin:0; padding:0;">
-                <div class="col s12 l4 m4 z-depth-5">
-                    <h2 class="">REFRENCJE</h2>
-                    <p class="blue-grey darken-4 grey-text">Odznaczamy się solidnością wykonania i terminowym realizowaniem projektów. Firmy, które skorzystały z naszych usług są zadowolone z efektów końcowych. Stosujemy sprawdzony  sprzęt, który gwarantuje, że instalacje pracują niezawodnie jeszcze długo po zakończeniu okresu gwarancyjnego. Intuicyjny interfejs graficzny wizualizacji sprawia, że obsługa jest prosta, a informacje prezentowane są wyraźnie i czytelnie. Zaufały nam firmy z różnych branż takich jak ciepłownictwo, oczyszczanie ścieków, przemysł przetwórczy.
-                    </p>
-                </div>
-                <div class="col s12 l8 m8 blue-gray darken-5 blue-grey-text lighten-5-text z-depth-5">
-<!--                     <img src="img/portfolio-18_10.png" class="responsive-img"/> -->
-                    <img src="img/portfolio-18_11.png" alt="referencje" class="responsive-img"/>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section blue-grey grey-text" id="oferta">
+
+    <div class="section blue-grey grey-text text-lighten-5 z-depth-5" id="oferta">
         <div class="container">
         <div class="row">
             <div class="col s12 l12 m12">
-            <h2 class="right">Oferta</h2>
+            <h2 class="text-right">Oferta</h2>
+            <div class="divider"></div>
             <h4>Specjalizujemy się w układach sterowania dla:</h4>
             <ul>
             <li>kotłowni węglowych i gazowych</li>
@@ -225,16 +179,32 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
         </div>
     </div>
 
+    <div class="blue-grey darken-4 grey-text" id="referencje">
+        <div class="container">
+            <div class="row" style="margin:0; padding:0;">
+                <div class="col s12 l4 m4 z-depth-5">
+                    <h2 class="">REFRENCJE</h2>
+                    <div class="divider"></div>
+                    <p class="blue-grey darken-4 grey-text">Odznaczamy się solidnością wykonania i terminowym realizowaniem projektów. Firmy, które skorzystały z naszych usług są zadowolone z efektów końcowych. Stosujemy sprawdzony  sprzęt, który gwarantuje, że instalacje pracują niezawodnie jeszcze długo po zakończeniu okresu gwarancyjnego. Intuicyjny interfejs graficzny wizualizacji sprawia, że obsługa jest prosta, a informacje prezentowane są wyraźnie i czytelnie. Zaufały nam firmy z różnych branż takich jak ciepłownictwo, oczyszczanie ścieków, przemysł przetwórczy.
+                    </p>
+                </div>
+                <div class="col s12 l8 m8 blue-gray darken-5 blue-grey-text lighten-5-text z-depth-5">
+                    <img src="img/portfolio-18_11.png" alt="referencje" class="responsive-img"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="section">
         <div class="container container-rotate">
-            <div class="row">
+            <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
                     <h4 class="center">FENICE Poland Sp. z o.o. <br/>
                         J.O. Podkarpacie / Krosno</h4>
                     <p style="text-align:justify;">
-                        <h5>Modernizacja kotłów węglowych WR-10</h5>
-                        Zastosowane technologie i sprzęt:
-                        <ul>
+                        <h5 class="center">Modernizacja kotłów węglowych WR-10</h5>
+                        <h6 class="center">Zastosowane technologie i sprzęt:</h6>
+                        <ul class="center">
                             <li>sterownik Siemens S7-1200</li>
                             <li>panel HMI Astraada 12”</li>
                             <li>przekaźniki bezpieczeństwa Endress+Hauser</li>
@@ -242,9 +212,9 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                         </ul>
                     </p>
                 </div>
-                <div class="col s6 m3 l3">
-                    <a href="#portfolio-11_1" title="List referencyjny FENICE Poland Sp. z o.o." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio-11_1-small.jpg" class="responsive-img" alt="List referencyjny FENICE Poland Sp. z o.o."/></a>
-                    <div id="portfolio-11_1" class="modal">
+                <div class="col s6 m3 l3 offset-m3 offset-l3 pull-m3 pull-l3">
+                    <a href="#portfolio-11_1" title="List referencyjny FENICE Poland Sp. z o.o." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-11_1-small.jpg" class="responsive-img" alt="List referencyjny FENICE Poland Sp. z o.o."/></a>
+                    <div id="portfolio-11_1" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <img src="img/portfolio-11_1-preview.jpg" class="responsive-img" alt="List referencyjny FENICE Poland Sp. z o.o."/>
                         </div>
@@ -256,23 +226,23 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
             </div>
         </div>
     </div>
-
-        <div class="section">
+    <div class="divider z-depth-1"></div>
+    <div class="section">
         <div class="container">
-            <div class="row">
+            <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
-                    <h4>Wojskowe Zakłady Uzbrojenia
+                    <h4 class="center">Wojskowe Zakłady Uzbrojenia
                         WZU S.A. Grudziądz </h4>
-                    <p style="text-align:justify;">
-                        <h5>Zakres prac:</h5>
-                        <ul>
+                    <p class="center">
+                        <h5 class="center">Zakres prac:</h5>
+                        <ul class="center">
                             <li>automatyka dwóch kotłów węglowych</li>
                             <li>sterowanie transporterami nawęglania</li>
                             <li>węzeł grzewczy – pomiary i sterowanie ciśnieniem w magistrali grzewczej</li>
                             <li>sterowanie węzłem cieplnym CO i ciepłej wody użytkowej (na potrzeby kotłowni)</li>
                         </ul>
-                        <h5>Zastosowane technologie i sprzęt:</h5>
-                        <ul>
+                        <h5 class="center">Zastosowane technologie i sprzęt:</h5>
+                        <ul class="center">
                             <li>sterownik GE</li>
                             <li>wizualizacja SCADA GE Cimplicity</li>
                             <li>sieci przemysłowe Profinet i Modbus</li>
@@ -283,8 +253,8 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                     </p>
                 </div>
                 <div class="col s6 m3 l3">
-                    <a href="#portfolio-9_1-000" title="List referencyjny WZU S.A. Grudziądz." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio-9_1-000-small.jpg" class="responsive-img" alt="List referencyjny WZU S.A. Grudziądz"/></a>
-                    <div id="portfolio-9_1-000" class="modal">
+                    <a href="#portfolio-9_1-000" title="List referencyjny WZU S.A. Grudziądz." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-9_1-000-small.jpg" class="responsive-img" alt="List referencyjny WZU S.A. Grudziądz"/></a>
+                    <div id="portfolio-9_1-000" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <img src="img/portfolio-9_1-000-preview.jpg" alt="List referencyjny WZU S.A. Grudziądz"/>
                         </div>
@@ -294,8 +264,8 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                     </div>
                 </div>
                 <div class="col s6 m3 l3">
-                    <a href="#portfolio-9_1-001" title="List referencyjny WZU S.A. Grudziądz." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio-9_1-001-small.jpg" class="responsive-img" alt="List referencyjny WZU S.A. Grudziądz"/></a>
-                    <div id="portfolio-9_1-001" class="modal">
+                    <a href="#portfolio-9_1-001" title="List referencyjny WZU S.A. Grudziądz." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-9_1-001-small.jpg" class="responsive-img" alt="List referencyjny WZU S.A. Grudziądz"/></a>
+                    <div id="portfolio-9_1-001" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <img src="img/portfolio-9_1-001-preview.jpg" alt="List referencyjny WZU S.A. Grudziądz"/>
                         </div>
@@ -308,16 +278,16 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
             </div>
         </div>
     </div>
-
-        <div class="section">
+    <div class="divider z-depth-1"></div>
+    <div class="section">
         <div class="container">
-            <div class="row">
+            <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
-                    <h4>Ciepłownia PEC Brodnica</h4>
+                    <h4 class="center">Ciepłownia PEC Brodnica</h4>
                     <p>
-                        <h5>Modernizacja kotła węglowego  WR-5</h5>
-                        <h6>Zastosowane technologie i sprzęt:</h6>
-                        <ul>
+                        <h5 class="center">Modernizacja kotła węglowego  WR-5</h5>
+                        <h6 class="center">Zastosowane technologie i sprzęt:</h6>
+                        <ul class="center">
                         <li>sterownik Astraada RCC</li>
                         <li>panel HMI Astraada</li>
                         <li>przekaźniki bezpieczeństwa Endress+Hauser</li>
@@ -325,9 +295,9 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                         </ul>
                     </p>
                 </div>
-                <div class="col s6 m6 l6">
-                    <a href="#portfolio-17_1-000" title="List referencyjny Ciepłownia PEC Brodnica" class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio-17_1-000-small.jpg" class="responsive-img" alt="List referencyjny Ciepłownia PEC Brodnica"/></a>
-                    <div id="portfolio-17_1-000" class="modal">
+                <div class="col s6 m3 l3 offset-l3 pull-l3">
+                    <a href="#portfolio-17_1-000" title="List referencyjny Ciepłownia PEC Brodnica" class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-17_1-000-small.jpg" class="responsive-img" alt="List referencyjny Ciepłownia PEC Brodnica"/></a>
+                    <div id="portfolio-17_1-000" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <img src="img/portfolio-17_1-000-preview.jpg" alt="List referencyjny Ciepłownia PEC Brodnica"/>
                         </div>
@@ -339,16 +309,16 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
             </div>
         </div>
     </div>
-
+  <div class="divider z-depth-1"></div>
         <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col s6 m6 l6">
-                    <h4>Rauch Polska Sp. z o.o (przetwórstwo owoców)</h4>
+                    <h4 class="center">Rauch Polska Sp. z o.o (przetwórstwo owoców)</h4>
                     <p>
-                        <h5>Modernizacja gazowego kotła parowego typu UL-S 1000 (moc 6,5MW)<h5>
-                        <h6>Zastosowane technologie i sprzęt:</h6>
-                        <ul>
+                        <h5 class="center">Modernizacja gazowego kotła parowego typu UL-S 1000 (moc 6,5MW)<h5>
+                        <h6 class="center">Zastosowane technologie i sprzęt:</h6>
+                        <ul class="center">
                             <li>sterownik Siemens S7-1200</li>
                             <li>panel HMI Astraada 12”</li>
                             <li>przekaźniki bezpieczeństwa GESTRA</li>
@@ -356,9 +326,9 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                         </ul>
                     </p>
                 </div>
-                <div class="col s6 m6 l6">
-                    <a href="#portfolio-13_1-000" title="List referencyjny Rauch Polska Sp. z o.o" class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio-13_1-000-small.jpg" class="responsive-img" alt="List referencyjny Rauch Polska Sp. z o.o"/></a>
-                    <div id="portfolio-13_1-000" class="modal">
+                <div class="col s6 m3 l3 offset-l3 pull-l3">
+                    <a href="#portfolio-13_1-000" title="List referencyjny Rauch Polska Sp. z o.o" class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-13_1-000-small.jpg" class="responsive-img" alt="List referencyjny Rauch Polska Sp. z o.o"/></a>
+                    <div id="portfolio-13_1-000" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <img src="img/portfolio-13_1-000-preview.jpg" alt="List referencyjny Rauch Polska Sp. z o.o"/>
                         </div>
@@ -367,20 +337,21 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                         </div>
                     </div>
                 </div>
+                <hr/>
             </div>
         </div>
     </div>
-
+    <div class="divider z-depth-1"></div>
     <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col s6 m6 l6">
-                    <h4>Oczyszczalnia ścieków w Tarnobrzegu
+                    <h4 class="center">Oczyszczalnia ścieków w Tarnobrzegu
                     (Pompy ciepła do odzysku energii ze ścieków)</h4>
                     <p>
-                    <h5>Automatyka węzła odzysku energii ze ścieków w celu grzania wody użytkowej i CO<h5>
-                    <h6>Zastosowane technologie i sprzęt:</h6>
-                    <ul>
+                    <h5 class="center">Automatyka węzła odzysku energii ze ścieków w celu grzania wody użytkowej i CO<h5>
+                    <h6 class="center">Zastosowane technologie i sprzęt:</h6>
+                    <ul class="center">
                         <li>sterownik Siemens S7-1200</li>
                         <li>panel HMI Astraada 12”</li>
                         <li>Pompy ciepła Mitsubishi NX-W/H</li>
@@ -388,9 +359,9 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                     </ul>
                     </p>
                 </div>
-                <div class="col s6 m6 l6">
-                    <a href="#portfolio-11_1-000" title="List referencyjny " class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio-11_1-000-small.jpg" class="responsive-img" alt="List referencyjny "/></a>
-                    <div id="portfolio-11_1-000" class="modal">
+                <div class="col s6 m3 l3 offset-l3 pull-l3">
+                    <a href="#portfolio-11_1-000" title="List referencyjny " class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-11_1-000-small.jpg" class="responsive-img" alt="List referencyjny "/></a>
+                    <div id="portfolio-11_1-000" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <img src="img/portfolio-11_1-000-preview.jpg" class="responsive-img" alt="List referencyjny"/>
                         </div>
@@ -402,16 +373,16 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
             </div>
         </div>
     </div>
-
-            <div class="section">
+    <div class="divider z-depth-1"></div>
+    <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col s6 m6 l6">
-                    <h4>Bydgoskie Zakłady Elektromechanicze BELMA S.A.</h4>
+                    <h4 class="center">Bydgoskie Zakłady Elektromechanicze BELMA S.A.</h4>
                     <p>
-                    <h5>Modernizacja kotła węglowego  WML-2,5<h5>
-                    <h6>Zastosowane technologie i sprzęt:</h6>
-                    <ul>
+                    <h5 class="center">Modernizacja kotła węglowego  WML-2,5<h5>
+                    <h6 class="center">Zastosowane technologie i sprzęt:</h6>
+                    <ul class="center">
                         <li>sterownik Schneider Modicon M340</li>
                         <li>panel HMI Magelis</li>
                         <li>przekaźniki bezpieczeństwa Endress+Hauser</li>
@@ -419,9 +390,9 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                     </ul>
                     </p>
                 </div>
-                <div class="col s6 m6 l6">
-                    <a href="#portfolio-19_1-000" title="List referencyjny BELMA S.A." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio-19_1-000-small.jpg" class="responsive-img" alt="List referencyjny BELMA S.A."/></a>
-                    <div id="portfolio-19_1-000" class="modal">
+                <div class="col s6 m3 l3 offset-l3 pull-l3">
+                    <a href="#portfolio-19_1-000" title="List referencyjny BELMA S.A." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-19_1-000-small.jpg" class="responsive-img" alt="List referencyjny BELMA S.A."/></a>
+                    <div id="portfolio-19_1-000" class="modal modal-fixed-footer">
                         <div class="modal-content">
                             <img src="img/portfolio-19_1-000-preview.jpg" alt="List referencyjny BELMA S.A."/>
                         </div>
@@ -442,7 +413,7 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
                     <p></p>
                 </div>
                 <div class="col s6 m6 l6">
-                    <a href="#portfolio-" title="List referencyjny " class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger z-depth-1"><img src="img/portfolio--small.jpg" alt="List referencyjny "/></a>
+                    <a href="#portfolio-" title="List referencyjny " class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio--small.jpg" alt="List referencyjny "/></a>
                     <div id="portfolio-" class="modal">
                         <div class="modal-content">
                             <img src="img/portfolio--preview.jpg" alt="List referencyjny"/>
@@ -460,91 +431,84 @@ Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiern
     <footer class="page-footer cyan">
     <div class="container">
         <div class="row">
-        <div class="col s12 m8 l6">
-            <h5 class="white-text">Kontakt</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <div class="col s12 m8 l8 center" id="kontakt">
+            <h4 class="white-text">Kontakt</h4>
+            <p class="grey-text text-lighten-4">
+                <h5 class="">
+                    <i class="small material-icons">phone</i><br/> Tel: 574 663 027
+                </h5>
+                <h5 class="">
+                    <i class="small material-icons">email</i><br/>starczak.karol@apstar-automation.pl
+                </h5>
+                <h5>
+                    <i class="small material-icons">web</i><br/><a href="/" title="APSTAR Automation Karol Starczak" class="white-text">www.apstar-automation.pl</a>
+                <h5>
+                <h4><i class="small material-icons">place</i><br/>al. Wojciecha Korfantego 138, 40- 156 Katowice<h5>
+                <h6>
+                    NIP:7931498939
+                </h6>
+            </p>
         </div>
-        <div class="col s12 m4 l6">
-            <h5 class="white-text">Second Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <div class="col s12 m2 l2 offset-m2 offset-l2 push-m1 push-l1">
+            <p class="">
+                <h5 class="white-text">Mapa strony</h5>
+                <ul class="white-text">
+                    <li>
+                        <a hrep="/" class="white-text" title="Strona główna APSTAR Automation Karol Starczak">Strona główna</a>
+                    </li>
+                    <li>
+                        <a hrep="#misja" class="white-text" title="Misja firmy APSTAR Automation Karol Starczak">Misja</a>
+                    </li>
+                    <li>
+                        <a hrep="#automatyka_produkcji" class="white-text" title="Automatyka produkcji APSTAR Automation Karol Starczak">Automatyka produkcji</a>
+                    </li>
+                    <li>
+                        <a hrep="#automatyka_procesowa" class="white-text" title="Automatyka procesowa APSTAR Automation Karol Starczak">Automatyka procesowa</a>
+                    </li>
+                    <li>
+                        <a hrep="#serwis" class="white-text" title="Serwis APSTAR Automation Karol Starczak">Serwis</a>
+                    </li>
+                    <li>
+                        <a hrep="#oferta" class="white-text" title="Oferta APSTAR Automation Karol Starczak">Oferta</a>
+                    </li>
+                    <li>
+                        <a hrep="#referencje" class="white-text" title="Referencje APSTAR Automation Karol Starczak">Referencje</a>
+                    </li>
+                    <li>
+                        <a hrep="#nowoczesnosc" class="white-text" title="Nowoczesność i innowacyjność APSTAR Automation Karol Starczak">Nowoczesność i innowacyjność</a>
+                    </li>
+                    <li>
+                        <a hrep="#kontakt" class="white-text" title="Kontakt APSTAR Automation Karol Starczak">Kontakt</a>
+                    </li>
+            </p>
         </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-        © 2017 Copyright Text
+        © 2021 Copyright Text
         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
         </div>
     </div>
     </footer>
     <!-- jQuery CDN -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- Materialize JS CDN -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
-    <!-- <script src="js/materialize.js"></script> -->
-    <!-- Compiled and minified CSS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
-
-<!-- Compiled and minified JavaScript -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
-    /*  // $('.carousel.carousel-slider').carousel({
-            // fullWidth: true
-        // :});
-        // document.addEventListener('DOMContentLoaded', function() {
-            // var elems = document.querySelectorAll('.carousel');
-            // var instances = M.Carousel.init(elems, options);
-        // });
-
-        // Or with jQuery
-
-        // $(document).ready(function(){
-            // $('.carousel').carousel();
-        // });
-
-        //   document.addEventListener('DOMContentLoaded', function() {
-            //   M.AutoInit();
-    // var elems = document.querySelectorAll('.carousel');
-    // var instances = M.Carousel.init(elems, options);
-//   });
-
-        //   M.AutoInit();
-        //   var instance = M.Carousel.getInstance(elem);
-    // M.AutoInit();
-    //   M.AutoInit();
-    $('.carousel.carousel-slider').carousel({
-    // fullWidth: true,
-    // indicators: true
-// });*/
     $("document").ready(function(){
-//         console.log("init carousel");
         $('#slider').carousel({
             'fullWidth': true,
             'indicators': false,
             'set': 3.
-
         });
-//         $('#portfolio-11_1').modal();
-//         $('#portfolio-9_1').modal();
-        $('.modal').modal();
+        $('.modal').modal({
+            startingTop: '5%',
+            endingTop: '10%'
+        });
     });
 
     $("document").ready(function(){
         $(".button-collapse").sideNav();
-
-//     $('.carousel.carousel-slider').carousel({
-//         set
-//     });
-
-
-        //  $('.carousel.carousel-slider').carousel({
-            // fullWidth: true
-        // });
-        // var instance = M.Carousel.init({
-        //     fullWidth: true,
-        //     indicators: true
-        // });
     });
     </script>
 </body>
