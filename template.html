@@ -10,10 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-        <script>
-                var inStart = '1638233886.402995316';
-        </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+            var inStart = '1638233886.402995316';
+            $(document).ready(function(){
+              $('.fullPage').css('height', $(window).height());
+            });
+    </script>
     <style>
+
     </style> 
 </head>
 <body>
@@ -44,7 +49,7 @@
     </header>
     <main style="">
     <div style="background-color: #1D5377;" class="z-depth-5">
-    <div class="container" >
+    <div class="container fullPage" id="misija" >
     <div class="row">
         <div class="col l4 m4 s12 condensed light card z-depth-5" style="font-weight:500;color:#D4D6D7;font-size: 19px;background:#1d5377;">
         Misją APSTAR jest wspieranie firm produkcyjnych, obiektów technologicznych i producentów energii we wdrażaniu innowacyjnych procesów automatyki przemysłowej. Stosując najnowocześniejsze technologie i działając według najwyższych standardów, zapewniamy naszym partnerom niezawodność działania, energooszczędność i optymalizację procesów.
@@ -53,43 +58,43 @@
         <div class="col l8 m8 z-depth-1 hide-on-small-only">
         <div id="slider" class="carousel carousel-slider" data-indicators="true" data-ride="carousel">
             <div class="carousel-item active" href="#one!">
-                <img src="img/portfolio-18_10.png" width="577px" height="426px" alt="Automatyka procesowa"/>
+                <img src="img/fajne_zdjecia/IMG_20210311_125454_v01.jpg" width="100%" height="auto" alt="Automatyka procesowa"/>
         </div>
         <div class="carousel-item item amber white-text" href="#two!">
             <a href="#referencje" title="Referencje APSTAR Automation">
-                <img src="img/portfolio-12_1.jpg" width="577px" height="426px" alt="Referencje APSTAR Automation" />
+                <img src="img/fajne_zdjecia/IMG_20201014_143214.jpg" width="100%" height="auto" alt="Referencje APSTAR Automation" />
             </a>
         </div>
         <div class="carousel-item green white-text" href="#three!">
-            <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio" />
+            <img src="img/fajne_zdjecia/Przeworsk_P&ID_PRZEWORSK3_v01.jpg"  width="100%" height="auto"  alt="Portfolio" />
         </div>
         <div class="carousel-item blue white-text" href="#four!">
-            <img src="img/portfolio-14_3.jpg"  width="577px" height="426px"  alt="Portfolio"/>
+            <img src="img/fajne_zdjecia/IMG_20201014_131119.jpg"  width="100%" height="auto"  alt="Portfolio"/>
         </div>
     </div>
     </div>
                 </div>
         </div>
     </div>
+    </div>
     <div class="section white z-depth-5" id="wyroznione">
         <div class="row">
         <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-5 z-depth-3 hoverable" id="automatyka_procesowa">
+    <div class="card blue-grey darken-5 z-depth-3 hoverable push-m1 push-l1" id="automatyka_procesowa">
         <div class="card-content white-text">
-        <span class="card-title">Automatyka procesowa</span>
+        <span class="card-title"><a href="automatyka-procesowa.html" title="APStar Automation - automatyka procesowa">Automatyka procesowa</a></span>
             <p>Tam gdzie ważne są parametry procesu technologicznego jak: temperatura, ciśnienie, wilgotność, stężenie oraz inne mierzalne wielkości fizyczne.<br/>
             Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiernicza, chemiczna </p>
         </div>
         <div class="card-action">
-        <a href="#">This is a link</a>
-        <a href="#">This is a link</a>
+        <a href="automatyka-procesowa.html" title="APStar Automation - automatyka procesowa">więcej</a>
         </div>
     </div>
     </div>
     <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-1 z-depth-3 hoverable" id="automatyka_produkcji">
+    <div class="card blue-grey darken-1 z-depth-3 hoverable push-m1 push-l1" id="automatyka_produkcji">
         <div class="card-content white-text">
-            <span class="card-title">Automatyka produkcji</span>
+            <span class="card-title"><a href="automatyka-produkcji.html" title="APStar Automation - automatyka produkcji">Automatyka produkcji</a></span>
             <p>
             Automatyzacja linii produkcyjnych: sortowania, ważenia, butelkowania, etykietowania, kontroli jakości itp.<br/>
             Przy pomocy odpowiednio dobranych czujników i napędów umożliwiamy taki przebieg produkcji, aby podnieść wydajność , zmniejszyć koszty, a przez to wpłynąć na poprawę jakości produktów.<br/>
@@ -98,27 +103,29 @@
             </p>
         </div>
         <div class="card-action">
-            <a href="#">This is a link</a>
+            <a href="automatyka-produkcji.html" title="APStar Automation - automatyka produkcji">więcej</a>
         </div>
     </div>
 </div>
+<div class="section">
     <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-3 z-depth-3 hoverable" id="serwis_maszyn">
-        <div class="card-content white-text">
-        <span class="card-title">Serwis maszyn</span>
-        <p>
-            Okresowe przeglądy techniczne niezbędne do zapewnienia niezawodnej pracy maszyn i wyeliminowania przestojów produkcyjnych<br/>
-            Usuwanie usterek.<br/>
-            Kompleksowe rozwiązania prewencyjne w przypadkach usterek systemowych, powtarzających się.<br/>
-        </p>
-    </div>
-    <div class="card-action">
-        <a href="#">This is a link</a>
+        <div class="card blue-grey darken-3 z-depth-3 hoverable push-m1 push-l1" id="serwis_maszyn">
+            <div class="card-content white-text">
+            <span class="card-title"><a href="serwis-maszyn.html" title="APStar Automation Serwis Maszyn">Serwis maszyn</a></span>
+            <p>
+                Okresowe przeglądy techniczne niezbędne do zapewnienia niezawodnej pracy maszyn i wyeliminowania przestojów produkcyjnych<br/>
+                Usuwanie usterek.<br/>
+                Kompleksowe rozwiązania prewencyjne w przypadkach usterek systemowych, powtarzających się.<br/>
+            </p>
+        </div>
+        <div class="card-action">
+            <a href="serwis-maszyn.html" title="APStart Automation Serwis Maszyn">Serwis maszyn</a>
+        </div>
+        </div>
         </div>
     </div>
-    </div>
 </div>
-    <div class="section white" id="nowoczesnosc">
+    <div class="section indigo lighten-5 fullPage " id="nowoczesnosc">
         <div class="row valign-wrapper">
         <div class="col l6 m6">
             <img src="img/portfolio-18_10.png" class="responsive-img" alt="Ładny obrazek"/>
@@ -454,31 +461,31 @@
                 <h5 class="white-text">Mapa strony</h5>
                 <ul class="white-text">
                     <li>
-                        <a hrep="/" class="white-text" title="Strona główna APSTAR Automation Karol Starczak">Strona główna</a>
+                        <a href="/" class="white-text" title="Strona główna APSTAR Automation Karol Starczak">Strona główna</a>
                     </li>
                     <li>
-                        <a hrep="#misja" class="white-text" title="Misja firmy APSTAR Automation Karol Starczak">Misja</a>
+                        <a href="#misja" class="white-text" title="Misja firmy APSTAR Automation Karol Starczak">Misja</a>
                     </li>
                     <li>
-                        <a hrep="#automatyka_produkcji" class="white-text" title="Automatyka produkcji APSTAR Automation Karol Starczak">Automatyka produkcji</a>
+                        <a href="#automatyka_produkcji" class="white-text" title="Automatyka produkcji APSTAR Automation Karol Starczak">Automatyka produkcji</a>
                     </li>
                     <li>
-                        <a hrep="#automatyka_procesowa" class="white-text" title="Automatyka procesowa APSTAR Automation Karol Starczak">Automatyka procesowa</a>
+                        <a href="#automatyka_procesowa" class="white-text" title="Automatyka procesowa APSTAR Automation Karol Starczak">Automatyka procesowa</a>
                     </li>
                     <li>
-                        <a hrep="#serwis" class="white-text" title="Serwis APSTAR Automation Karol Starczak">Serwis</a>
+                        <a href="#serwis" class="white-text" title="Serwis APSTAR Automation Karol Starczak">Serwis</a>
                     </li>
                     <li>
-                        <a hrep="#oferta" class="white-text" title="Oferta APSTAR Automation Karol Starczak">Oferta</a>
+                        <a href="#oferta" class="white-text" title="Oferta APSTAR Automation Karol Starczak">Oferta</a>
                     </li>
                     <li>
-                        <a hrep="#referencje" class="white-text" title="Referencje APSTAR Automation Karol Starczak">Referencje</a>
+                        <a href="#referencje" class="white-text" title="Referencje APSTAR Automation Karol Starczak">Referencje</a>
                     </li>
                     <li>
-                        <a hrep="#nowoczesnosc" class="white-text" title="Nowoczesność i innowacyjność APSTAR Automation Karol Starczak">Nowoczesność i innowacyjność</a>
+                        <a href="#nowoczesnosc" class="white-text" title="Nowoczesność i innowacyjność APSTAR Automation Karol Starczak">Nowoczesność i innowacyjność</a>
                     </li>
                     <li>
-                        <a hrep="#kontakt" class="white-text" title="Kontakt APSTAR Automation Karol Starczak">Kontakt</a>
+                        <a href="#kontakt" class="white-text" title="Kontakt APSTAR Automation Karol Starczak">Kontakt</a>
                     </li>
             </p>
         </div>
@@ -488,20 +495,19 @@
         <div class="container">
             <div class="badge">@COPYLEFT; ALL WRONGS RESERVED</div>
             <div class="badge">@АВТОРСКОЕ ЛЕВО; ВСЕ ОШИБКИ ЗАЩИЩЕНЫ</dibv>
-            <div class="badge"><img src="https://pl.wikipedia.org/wiki/Plik:Copyleft.svg" width="64" height="64">Copyleft – all rights reversed</div>
+            <div class="badge">@Copyleft – all rights reversed</div>
 
         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
         </div>
     </div>
     </footer>
     <!-- jQuery CDN -->
-    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
     $("document").ready(function(){
         $('#slider').carousel({
             'fullWidth': true,
-            'indicators': false,
+            'indicators': true,
             'set': 3.
         });
         $('.modal').modal({
