@@ -18,7 +18,31 @@
             });
     </script>
     <style>
-
+.xs   {font-size: 0.75rem}
+.sm   {font-size: 0.875rem}
+.base {font-size: 1rem}
+.lg   {font-size: 1.125rem}
+.xl   {font-size: 1.25rem}
+/* .2xl  {font-size: 1.5rem}
+.3xl  {font-size: 1.875rem}
+.4xl  {font-size: 2.25rem}
+.5xl  {font-size: 3rem}
+.6xl  {font-size: 4rem} */
+.fs1  {font-size: 1vw}
+.fs2  {font-size: 1.4vw}
+.fs3  {font-size: 1.6vw}
+.fs4  {font-size: 1.8vw}
+.fs5  {font-size: 2vw}
+.fs6  {font-size: 2.2vw}
+.fs7  {font-size: 2.4vw}
+.fs8  {font-size: 2.6vw}
+#misja .row .col.l4 {
+    font-size: 1.5vh;
+}
+/* .row .col.s12 */
+#misja .row .col.s12 {
+    font-size: 2vh;
+}
     </style> 
 </head>
 <body>
@@ -26,16 +50,22 @@
     <nav class="grey lighten-3 text-darken-4">
         <div class="container">
         <div class="row">
-        <div class="col l12 m12 s12" style="font-color:#383838;">
-                <a href="#" class="left"><img src="img/logo.png" class="responsive-img" alt="APSTAR Logo"></a>
-                <a href="#" class="left blue-grey-text darken-4" style="font-size:27px;font-weight: 600;" >APSTAR</a>
-                <a href="#" data-activates="mobile-menu" class="button-collapse right" data-target="mobile-menu" ><i class="material-icons">menu</i></a>
-                <ul class="hide-on-med-and-down right blue-grey-text darken-4">
-            <li><a href="/" style="" class="blue-grey-text darken-4 z-depth-5">Strona główna</a></li>
-            <li><a href="#oferta" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Oferta</a></li>
-            <li><a href="#referencje" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Referencje</a></li>
-            <li><a href="#kontakt" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Kontakt</a></li>
+        <div class="col l4 m4 s8" style="font-color:#383838;">
+            <a href="#" class="left"><img src="img/logo.png" class="responsive-img" alt="APSTAR Logo"></a>
+            <a href="#" class="left blue-grey-text darken-4" style="font-size:27px;font-weight: 600;" >APSTAR</a>
+        </div>
+        <div class="col l8 m8 hide-on-small-only right-aligned">
+            <ul class="right blue-grey-text darken-4 hide-on-small-only">
+                <li><a href="/" class="blue-grey-text darken-4 z-depth-5">Strona główna</a></li>
+                <li><a href="#oferta" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Oferta</a></li>
+                <li><a href="#referencje" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Referencje</a></li>
+                <li><a href="#kontakt" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Kontakt</a></li>
             </ul>
+        </div>
+        <div class="col s4 show-on-small right-aligned">
+            <a href="#" data-activates="mobile-menu" class="button-collapse right" data-target="mobile-menu" ><i class="material-icons">menu</i></a>
+        </div>
+        <div class="col s12 hide-on-med-and-up">
             <ul class="nav-content" id="mobile-menu">
                 <li><a href="/">Strona główna</a></li>
                 <li><a href="#oferta">Oferta</a></li>
@@ -45,17 +75,21 @@
         </div>
     </div>
 </div>
+
     </nav>
+<!-- <nav class="grey lighten-3 text-accent-4 hide"> -->
+<!-- </nav>     -->
     </header>
-    <main style="">
+    <main>
     <div style="background-color: #1D5377;" class="z-depth-5">
     <div class="container fullPage" id="misija" >
     <div class="row">
-        <div class="col l4 m4 s12 condensed light card z-depth-5" style="font-weight:500;color:#D4D6D7;font-size: 19px;background:#1d5377;">
+        <div class="col l4 m4 s12 light card z-depth-5 show-on-medium-and-up" style="color:#D4D6D7;background:#1d5377;">
         Misją APSTAR jest wspieranie firm produkcyjnych, obiektów technologicznych i producentów energii we wdrażaniu innowacyjnych procesów automatyki przemysłowej. Stosując najnowocześniejsze technologie i działając według najwyższych standardów, zapewniamy naszym partnerom niezawodność działania, energooszczędność i optymalizację procesów.
 
-        <a href="#" title="Czytaj dalej o Misji APSTAR" class="readmore white-text deep-orange darken-2 centerz-depth-5 waves-effect waves-light btn right">czytaj dalej</a></div>
-        <div class="col l8 m8 z-depth-1 hide-on-small-only">
+        <!-- <a href="#" title="Czytaj dalej o Misji APSTAR" class="readmore white-text deep-orange darken-2 centerz-depth-5 waves-effect waves-light btn right">czytaj dalej</a> -->
+    </div>
+        <div class="col l8 m8 s12 z-depth-1 hide-on-small-only">
         <div id="slider" class="carousel carousel-slider" data-indicators="true" data-ride="carousel">
             <div class="carousel-item active" href="#one!">
                 <img src="img/fajne_zdjecia/IMG_20210311_125454_v01.jpg" width="100%" height="auto" alt="Automatyka procesowa"/>
