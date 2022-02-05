@@ -13,11 +13,12 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script>
             var inStart = '1638233886.402995316';
-            $(document).ready(function(){
-              $('.fullPage').css('height', $(window).height());
-            });
+            // $(document).ready(function(){
+            //   $('.fullPage').css('height', $(window).height());
+            // });
     </script>
     <style>
+<<<<<<< HEAD
 .xs   {font-size: 0.75rem}
 .sm   {font-size: 0.875rem}
 .base {font-size: 1rem}
@@ -36,34 +37,96 @@
 .fs6  {font-size: 2.2vw}
 .fs7  {font-size: 2.4vw}
 .fs8  {font-size: 2.6vw}
+=======
+
+
+        #misja .row .col.s12 {
+            font-size: 1.5vw;
+        }
+        #misja .row .col.l4 {
+            font-size: 1.5vw;
+            font-weight: 500;
+        }
+        #misja .row .col.m4 {
+            font-size: 1.5vw;
+        }
+
+        ul#desktop-menu li {
+            display: block;
+            float: left;
+            clear: right;
+            background: rgba(233,233,233,0.8);
+        }
+        ul:not(.browser-default) > li {
+            list-style-type: none;
+            display: block;
+            clear: both;
+
+            width: inherit;
+            text-align: center;
+        }
+        #oferta ul > li {
+            background: none;
+            text-align: justify;
+        }
+
+        /* #referencje  */
+        #mobile-menu {
+            transform: translateX(0px);
+            position: fixed;
+            z-index: 1000000;
+            top: 55px;
+            position: fixed;
+            width: 100%;
+            margin-left: 0px;
+            left: 0px;
+        }
+
+        .carousel .indicators .indicator-item {
+            background-color: #3ba8f0;
+        }
+
+        .carousel .indicators .indicator-item.active {
+            background-color: #1d5377;
+        }
+
+        .card-title {
+            text-shadow: -1px 1px 1px rgba(233,233,233,0.8);
+        }
+>>>>>>> apstar
     </style> 
 </head>
 <body>
     <header>
-    <nav class="grey lighten-3 text-darken-4">
-        <div class="container">
-        <div class="row">
-        <div class="col l12 m12 s12" style="font-color:#383838;">
-                <a href="#" class="left"><img src="img/logo.png" class="responsive-img" alt="APSTAR Logo"></a>
-                <a href="#" class="left blue-grey-text darken-4" style="font-size:27px;font-weight: 600;" >APSTAR</a>
-                <a href="#" data-activates="mobile-menu" class="button-collapse right" data-target="mobile-menu" ><i class="material-icons">menu</i></a>
-                <ul class="hide-on-med-and-down right blue-grey-text darken-4">
-            <li><a href="/" style="" class="blue-grey-text darken-4 z-depth-5">Strona główna</a></li>
-            <li><a href="#oferta" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Oferta</a></li>
-            <li><a href="#referencje" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Referencje</a></li>
-            <li><a href="#kontakt" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Kontakt</a></li>
-            </ul>
-            <ul class="nav-content" id="mobile-menu">
-                <li><a href="/">Strona główna</a></li>
-                <li><a href="#oferta">Oferta</a></li>
-                <li><a href="#referencje">Referencje</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-    </nav>
+        <nav class="grey lighten-3 text-darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l12 m12 s12" style="color:#383838;">
+                        <div class="left-align">
+                            
+                            <a href="#" class="left"><img src="img/logo.png" class="responsive-img" alt="APSTAR Logo"></a>
+                            <a href="#" class="left blue-grey-text darken-4" style="font-size:27px;font-weight: 600;" >APSTAR</a>
+                            <a href="#" data-activates="mobile-menu" class="button-collapse right blue-grey-text darken-4 text-darken-4 active" data-target="mobile-menu" style="position: fixed;position: fixed; right: 0px; top: 0px;"><i class="material-icons">menu</i></a>
+                        </div>
+                        <div class="right-aligned"></div>
+                        <ul class="right blue-grey-text darken-4 hide-on-small-only" id="desktop-menu">
+                            <li><a href="/" class="blue-grey-text darken-4 z-depth-5">Strona główna</a></li>
+                            <li><a href="#oferta" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Oferta</a></li>
+                            <li><a href="#referencje" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Referencje</a></li>
+                            <li><a href="#kontakt" class="blue-grey-text darken-4 z-depth-5 waves-effect waves-light">Kontakt</a></li>
+                        </ul>
+                        <ul class="hide-on-med-and-up nav-content" id="mobile-menu">
+                            <li><a href="/">Strona główna</a></li>
+                            <li><a href="#oferta">Oferta</a></li>
+                            <li><a href="#referencje">Referencje</a></li>
+                            <li><a href="#kontakt">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
+<<<<<<< HEAD
     <main style="">
     <div style="background-color: #1D5377;" class="z-depth-5">
     <div class="container fullPage" id="misija" >
@@ -91,142 +154,176 @@
         </div>
     </div>
     </div>
-                </div>
-        </div>
-    </div>
-    </div>
-    <div class="section white z-depth-5" id="wyroznione">
-        <div class="row">
-        <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-5 z-depth-3 hoverable push-m1 push-l1" id="automatyka_procesowa">
-        <div class="card-content white-text">
-        <span class="card-title"><a href="automatyka-procesowa.html" title="APStar Automation - automatyka procesowa">Automatyka procesowa</a></span>
-            <p>Tam gdzie ważne są parametry procesu technologicznego jak: temperatura, ciśnienie, wilgotność, stężenie oraz inne mierzalne wielkości fizyczne.<br/>
-            Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiernicza, chemiczna </p>
-        </div>
-        <div class="card-action">
-        <a href="automatyka-procesowa.html" title="APStar Automation - automatyka procesowa">więcej</a>
-        </div>
-    </div>
-    </div>
-    <div class="col s12 m4 l4">
-    <div class="card blue-grey darken-1 z-depth-3 hoverable push-m1 push-l1" id="automatyka_produkcji">
-        <div class="card-content white-text">
-            <span class="card-title"><a href="automatyka-produkcji.html" title="APStar Automation - automatyka produkcji">Automatyka produkcji</a></span>
-            <p>
-            Automatyzacja linii produkcyjnych: sortowania, ważenia, butelkowania, etykietowania, kontroli jakości itp.<br/>
-            Przy pomocy odpowiednio dobranych czujników i napędów umożliwiamy taki przebieg produkcji, aby podnieść wydajność , zmniejszyć koszty, a przez to wpłynąć na poprawę jakości produktów.<br/>
-            Automatyzacja transportu wewnętrznego: przenośniki taśmowe, ślimakowe i transportery rolkowe.<br/>
-            Automatyzacja magazynowania.<br/>
-            </p>
-        </div>
-        <div class="card-action">
-            <a href="automatyka-produkcji.html" title="APStar Automation - automatyka produkcji">więcej</a>
-        </div>
-    </div>
-</div>
-<div class="section">
-    <div class="col s12 m4 l4">
-        <div class="card blue-grey darken-3 z-depth-3 hoverable push-m1 push-l1" id="serwis_maszyn">
-            <div class="card-content white-text">
-            <span class="card-title"><a href="serwis-maszyn.html" title="APStar Automation Serwis Maszyn">Serwis maszyn</a></span>
-            <p>
-                Okresowe przeglądy techniczne niezbędne do zapewnienia niezawodnej pracy maszyn i wyeliminowania przestojów produkcyjnych<br/>
-                Usuwanie usterek.<br/>
-                Kompleksowe rozwiązania prewencyjne w przypadkach usterek systemowych, powtarzających się.<br/>
-            </p>
-        </div>
-        <div class="card-action">
-            <a href="serwis-maszyn.html" title="APStart Automation Serwis Maszyn">Serwis maszyn</a>
-        </div>
-        </div>
-        </div>
-    </div>
-</div>
-    <div class="section indigo lighten-5 fullPage " id="nowoczesnosc">
-        <div class="row valign-wrapper">
-        <div class="col l6 m6">
-            <img src="img/portfolio-18_10.png" class="responsive-img" alt="Ładny obrazek"/>
-        </div>
-        <div class="col s12 l6 m6 black-text">
-            <h4>Nowoczesność i innowacyjność:</h4>
-            <p>Stosujemy rozwiązania oparte o sieci przemysłowe Profinet, Modbus TCP i EtherCAT. Są to sieci bazujące na niezawodnym i szeroko rozpowszechnionym standardzie Ethernet.</p>
-            <h5>HMI oraz SCADA – wizualizacja procesu oraz zdalne sterowanie.</h5>
-            <p>Nowoczesne technologie umożliwiają zdalne sterowanie, graficzne przedstawienie procesu, rejestrację i archiwizację pomiarów, czasów pracy i innych parametrów procesu.</p>
-            <h5>CAD, Python, XML </h5>
-            <p>W procesie projektowania i realizacji wspomagamy się programem do obliczeń numerycznych SciLab, do typowych zadań stosujemy skrypty napisane w Python. Skracamy dzięki temu czas realizacji głównej części projektu i skupiamy się na innowacyjności i jakości.</p>
-        </div>
-        </div>
-    </div>
-
-    <div class="blue-gray lighten-5 gray-text darken-5-text">
-    <div class="container" id="dlaczego">
-    <div class="row valign-wrapper">
-        <div class="col l12 m12 s12">
-            <h2>Dlaczego warto wybrać APSTAR</h2>
-            <div class="divider"></div>
-            <p>Układy automatycznej regulacji oraz wizualizacja procesu to najważniejsze elementy współczesnych maszyn i linii produkcyjnych. To one decydują o poprawności działania, wydajności i niezawodności. Świetnie zaprojektowane i wykonane transportery, drogie i niezawodne zawory regulacyjne albo silniki z superdokładnymi enkoderami i falownikami same nie zaczną działać. Działanie całego systemu jest więc oceniane przez pryzmat automatyki.</p>
-            <p>Dlatego warto wybrać firmę, która ma doświadczenie potwierdzone referencjami oraz świetne pomysły.</p>
-            <p>Jeśli budujesz albo modernizujesz maszyny i instalacje to dzięki nam Twoje inwestycje zyskają nową lepszą jakość i uznanie w oczach klientów.</p>
-            <p>Jeśli jesteś właścicielem linii produkcyjnej i chcesz ją usprawnić, zwiększyć wydajność lub poszukujesz oszczędności to świetnie trafiłeś.</p>
-            <p>Jeśli poszukujesz serwisu maszyn, chcesz mieć pewność, że wszystko pod kątem automatyki jest sprawne i  nie grożą Ci przestoje, APSTAR skutecznie się tym zajmie.</p>
-        </div>
-    </div>
-    </div>
-    </div>
-
-
-    <div class="section blue-grey grey-text text-lighten-5 z-depth-5" id="oferta">
-        <div class="container">
-        <div class="row">
-            <div class="col s12 l12 m12">
-            <h2 class="text-right">Oferta</h2>
-            <div class="divider"></div>
-            <h4>Specjalizujemy się w układach sterowania dla:</h4>
-            <ul>
-            <li>kotłowni węglowych i gazowych</li>
-            <li>instalacji przygotowania wody technologicznej (wymienniki ciepła i zawory do regulacji ciśnienia lub przepływu)</li>
-            <li>pomp ciepła</li>
-            <li>klimatyzacji przemysłowych (regulacja temperatury i wilgotności)</li>
-            <li>pompowni</li>
-            <li>instalacji grzania i suszenia np. lakierowanych elementów albo surowców (drewno, trociny)</li>
-            <li>przemysłu spożywczego</li>
-            </ul>
-            <h5>Poza automatyką procesową realizujemy również automatykę z kategorii „start-stop” czyli np.:</h5>
-            <ul>
-                <li>transport wewnętrzny – transportery taśmowe, podnośniki, paletyzacja, załadunek / rozładunek</li>
-                <li>modernizacja i naprawa maszyn produkowanych seryjnie – pilarki, piece grzewcze,</li> mieszalniki, systemy ważenia itp.</li>
-                <li>maszyny produkcyjne – cięcie, pakowanie, zbijanie, butelkowanie itp.</li>
-            </ul>
-            <p>Dodatkową gałęzią naszych usług jest naprawa i serwis parku maszynowego. Jeśli Twoja maszyna przestała działać,  przywrócimy ją do życia, a w przypadku poważnego problemu zaproponujemy rozwiązanie, aby uniknąć usterek w przyszłości.</p>
-</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="blue-grey darken-4 grey-text" id="referencje">
-        <div class="container">
-            <div class="row" style="margin:0; padding:0;">
-                <div class="col s12 l4 m4 z-depth-5">
-                    <h2 class="">REFRENCJE</h2>
-                    <div class="divider"></div>
-                    <p class="blue-grey darken-4 grey-text">Odznaczamy się solidnością wykonania i terminowym realizowaniem projektów. Firmy, które skorzystały z naszych usług są zadowolone z efektów końcowych. Stosujemy sprawdzony  sprzęt, który gwarantuje, że instalacje pracują niezawodnie jeszcze długo po zakończeniu okresu gwarancyjnego. Intuicyjny interfejs graficzny wizualizacji sprawia, że obsługa jest prosta, a informacje prezentowane są wyraźnie i czytelnie. Zaufały nam firmy z różnych branż takich jak ciepłownictwo, oczyszczanie ścieków, przemysł przetwórczy.
-                    </p>
-                </div>
-                <div class="col s12 l8 m8 blue-gray darken-5 blue-grey-text lighten-5-text z-depth-5">
-                    <img src="img/portfolio-18_11.png" alt="referencje" class="responsive-img"/>
+=======
+    <main>
+        <div style="background-color: #1D5377;" class="z-depth-5">
+            <div class="container fullPage" id="misja">
+                <div class="row">
+                    <div class="col l4 m4 s12 condensed light card z-depth-5" style="color:#D4D6D7;background:#1d5377;">
+                        Misją APSTAR jest wspieranie firm produkcyjnych, obiektów technologicznych i producentów energii we wdrażaniu innowacyjnych procesów automatyki przemysłowej. Stosując najnowocześniejsze technologie i działając według najwyższych standardów, zapewniamy naszym partnerom niezawodność działania, energooszczędność i optymalizację procesów.
+                        <!-- <a href="#" title="Czytaj dalej o Misji APSTAR" class="readmore white-text deep-orange darken-2 centerz-depth-5 waves-effect waves-light btn right">czytaj dalej</a> -->
+                    </div>
+                    <div class="col l8 m8 z-depth-1 hide-on-small-only">
+                        <div id="slider" class="carousel carousel-slider" data-indicators="true" data-ride="carousel">
+                            <div class="carousel-item blue white-text" data-rel="#five!">
+                                <img src="img/belma_corel_v01.jpg" alt="Belma Corel">
+                            </div>
+                            <div class="carousel-item blue white-text" data-rel="#four!">
+                                <img src="img/fajne_zdjecia/IMG_20201014_131119.jpg" alt="Portfolio"/>
+                            </div>
+                            <div class="carousel-item active" data-rel="#one!">
+                                <img src="img/fajne_zdjecia/IMG_20210311_125454_v01.jpg" alt="Automatyka procesowa"/>
+                            </div>
+                            <div class="carousel-item item amber white-text" data-rel="#two!">
+                                <a href="#referencje" title="Referencje APSTAR Automation">
+                                    <img src="img/fajne_zdjecia/IMG_20201014_143214.jpg" alt="Referencje APSTAR Automation" />
+                                </a>
+                            </div>
+                            <div class="carousel-item green white-text" data-rel="#three!">
+                                <img src="img/fajne_zdjecia/Przeworsk_P&ID_PRZEWORSK3_v01.jpg" alt="Portfolio" />
+                            </div>
+                                <!-- </div>
+                                </div>
+                            </div> -->
+                    </div>
+>>>>>>> apstar
                 </div>
             </div>
         </div>
-    </div>
+        <div class="section white z-depth-5" id="wyroznione">
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card blue-grey darken-5 z-depth-3 hoverable push-m1 push-l1" id="automatyka_procesowa">
+                        <div class="card-content white-text">
+                            <span class="card-title"><a href="automatyka-procesowa.html" title="APStar Automation - automatyka procesowa">Automatyka procesowa</a></span>
+                            <p>Tam gdzie ważne są parametry procesu technologicznego jak: temperatura, ciśnienie, wilgotność, stężenie oraz inne mierzalne wielkości fizyczne.<br/>
+                            Branże: energetyka cieplna, spożywcza, wodnościekowa, farmaceutyczna, papiernicza, chemiczna </p>
+                        </div>
+                        <!-- <div class="card-action">
+                            <a href="automatyka-procesowa.html" title="APStar Automation - automatyka procesowa">więcej</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card blue-grey darken-1 z-depth-3 hoverable push-m1 push-l1" id="automatyka_produkcji">
+                        <div class="card-content white-text">
+                            <span class="card-title"><a href="automatyka-produkcji.html" title="APStar Automation - automatyka produkcji">Automatyka produkcji</a></span>
+                            <p>
+                                Automatyzacja linii produkcyjnych: sortowania, ważenia, butelkowania, etykietowania, kontroli jakości itp.<br/>
+                                Przy pomocy odpowiednio dobranych czujników i napędów umożliwiamy taki przebieg produkcji, aby podnieść wydajność , zmniejszyć koszty, a przez to wpłynąć na poprawę jakości produktów.<br/>
+                                Automatyzacja transportu wewnętrznego: przenośniki taśmowe, ślimakowe i transportery rolkowe.<br/>
+                                Automatyzacja magazynowania.<br/>
+                            </p>
+                        </div>
+                        <!-- <div class="card-action">
+                            <a href="automatyka-produkcji.html" title="APStar Automation - automatyka produkcji">więcej</a>
+                        </div> -->
+                    </div>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="section"> -->
+                <div class="col s12 m4 l4">
+                    <div class="card blue-grey darken-3 z-depth-3 hoverable push-m1 push-l1" id="serwis_maszyn">
+                        <div class="card-content white-text">
+                            <span class="card-title"><a href="serwis-maszyn.html" title="APStar Automation Serwis Maszyn">Serwis maszyn</a></span>
+                            <p>
+                                Okresowe przeglądy techniczne niezbędne do zapewnienia niezawodnej pracy maszyn i wyeliminowania przestojów produkcyjnych<br/>
+                                Usuwanie usterek.<br/>
+                                Kompleksowe rozwiązania prewencyjne w przypadkach usterek systemowych, powtarzających się.<br/>
+                            </p>
+                        </div>
+                        <!-- <div class="card-action">
+                            <a href="serwis-maszyn.html" title="APStart Automation Serwis Maszyn">Serwis maszyn</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section gray lighten-3 fullPage " id="nowoczesnosc">
+            <div class="row valign-wrapper">
+                <div class="col l2 m4 hide-on-small-only">
+                    <img src="img/IMG_20210311_124854.jpg" class="responsive-img" alt="Ładny obrazek"/>
+                </div>
+                <div class="col l10 m8 s12 grey-text text-lighten-5">
+                    <h4>Nowoczesność i innowacyjność:</h4>
+                    <p>Stosujemy rozwiązania oparte o sieci przemysłowe Profinet, Modbus TCP i EtherCAT. Są to sieci bazujące na niezawodnym i szeroko rozpowszechnionym standardzie Ethernet.</p>
+                    <h5>HMI oraz SCADA – wizualizacja procesu oraz zdalne sterowanie.</h5>
+                    <p>Nowoczesne technologie umożliwiają zdalne sterowanie, graficzne przedstawienie procesu, rejestrację i archiwizację pomiarów, czasów pracy i innych parametrów procesu.</p>
+                    <h5>CAD, Python, XML </h5>
+                    <p>W procesie projektowania i realizacji wspomagamy się programem do obliczeń numerycznych SciLab, do typowych zadań stosujemy skrypty napisane w Python. Skracamy dzięki temu czas realizacji głównej części projektu i skupiamy się na innowacyjności i jakości.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="blue-gray lighten-5 gray-text darken-5-text">
+            <div class="container" id="dlaczego">
+                <div class="row valign-wrapper">
+                    <div class="col l12 m12 s12">
+                        <h2>Dlaczego warto wybrać APSTAR</h2>
+                        <div class="divider"></div>
+                        <p>Układy automatycznej regulacji oraz wizualizacja procesu to najważniejsze elementy współczesnych maszyn i linii produkcyjnych. To one decydują o poprawności działania, wydajności i niezawodności. Świetnie zaprojektowane i wykonane transportery, drogie i niezawodne zawory regulacyjne albo silniki z superdokładnymi enkoderami i falownikami same nie zaczną działać. Działanie całego systemu jest więc oceniane przez pryzmat automatyki.</p>
+                        <p>Dlatego warto wybrać firmę, która ma doświadczenie potwierdzone referencjami oraz świetne pomysły.</p>
+                        <p>Jeśli budujesz albo modernizujesz maszyny i instalacje to dzięki nam Twoje inwestycje zyskają nową lepszą jakość i uznanie w oczach klientów.</p>
+                        <p>Jeśli jesteś właścicielem linii produkcyjnej i chcesz ją usprawnić, zwiększyć wydajność lub poszukujesz oszczędności to świetnie trafiłeś.</p>
+                        <p>Jeśli poszukujesz serwisu maszyn, chcesz mieć pewność, że wszystko pod kątem automatyki jest sprawne i  nie grożą Ci przestoje, APSTAR skutecznie się tym zajmie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="section">
+
+        <div class="section blue-grey grey-text text-lighten-5 z-depth-5" id="oferta">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l12 m12">
+                        <h2 class="text-right">Oferta</h2>
+                        <div class="divider"></div>
+                        <h4>Specjalizujemy się w układach sterowania dla:</h4>
+                        <ul>
+                            <li>kotłowni węglowych i gazowych</li>
+                            <li>instalacji przygotowania wody technologicznej (wymienniki ciepła i zawory do regulacji ciśnienia lub przepływu)</li>
+                            <li>pomp ciepła</li>
+                            <li>klimatyzacji przemysłowych (regulacja temperatury i wilgotności)</li>
+                            <li>pompowni</li>
+                            <li>instalacji grzania i suszenia np. lakierowanych elementów albo surowców (drewno, trociny)</li>
+                            <li>przemysłu spożywczego</li>
+                        </ul>
+                        <h5>Poza automatyką procesową realizujemy również automatykę z kategorii „start-stop” czyli np.:</h5>
+                        <ul>
+                            <li>transport wewnętrzny – transportery taśmowe, podnośniki, paletyzacja, załadunek / rozładunek</li>
+                            <li>modernizacja i naprawa maszyn produkowanych seryjnie – pilarki, piece grzewcze,<br/> mieszalniki, systemy ważenia itp.</li>
+                            <li>maszyny produkcyjne – cięcie, pakowanie, zbijanie, butelkowanie itp.</li>
+                        </ul>
+                        <p>Dodatkową gałęzią naszych usług jest naprawa i serwis parku maszynowego. Jeśli Twoja maszyna przestała działać,  przywrócimy ją do życia, a w przypadku poważnego problemu zaproponujemy rozwiązanie, aby uniknąć usterek w przyszłości.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blue-grey darken-4 grey-text" id="referencje">
+            <div class="container">
+                <div class="row" style="margin:0; padding:0;">
+                    <div class="col l8 m8 s12 z-depth-5">
+                        <h2 class="">REFRENCJE</h2>
+                        <div class="divider"></div>
+                        <p class="blue-grey darken-4 grey-text">Odznaczamy się solidnością wykonania i terminowym realizowaniem projektów. Firmy, które skorzystały z naszych usług są zadowolone z efektów końcowych. Stosujemy sprawdzony  sprzęt, który gwarantuje, że instalacje pracują niezawodnie jeszcze długo po zakończeniu okresu gwarancyjnego. Intuicyjny interfejs graficzny wizualizacji sprawia, że obsługa jest prosta, a informacje prezentowane są wyraźnie i czytelnie. Zaufały nam firmy z różnych branż takich jak ciepłownictwo, oczyszczanie ścieków, przemysł przetwórczy.
+                        </p>
+                    </div>
+                    <div class="col l4 m4 s12 blue-gray darken-5 blue-grey-text lighten-5-text z-depth-5">
+                        <img src="img/IMG_20210311_125454_v01.jpg" alt="referencje" class="responsive-img"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<!--</div>-->
+    <!-- <div class="section"> -->
         <div class="container container-rotate">
             <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
                     <h4 class="center">FENICE Poland Sp. z o.o. <br/>
                         J.O. Podkarpacie / Krosno</h4>
-                    <p style="text-align:justify;">
+                    <div style="text-align:justify;">
                         <h5 class="center">Modernizacja kotłów węglowych WR-10</h5>
                         <h6 class="center">Zastosowane technologie i sprzęt:</h6>
                         <ul class="center">
@@ -235,7 +332,7 @@
                             <li>przekaźniki bezpieczeństwa Endress+Hauser</li>
                             <li>przetworniki ciśnienia: Aplisens</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div class="col s6 m3 l3 offset-m3 offset-l3 pull-m3 pull-l3">
                     <a href="#portfolio-11_1" title="List referencyjny FENICE Poland Sp. z o.o." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-11_1-small.jpg" class="responsive-img" alt="List referencyjny FENICE Poland Sp. z o.o."/></a>
@@ -250,15 +347,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="divider z-depth-1"></div>
-    <div class="section">
+    <!-- </div> -->
+        <div class="divider z-depth-1"></div>
+    <!-- <div class="section"> -->
         <div class="container">
             <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
                     <h4 class="center">Wojskowe Zakłady Uzbrojenia
                         WZU S.A. Grudziądz </h4>
-                    <p class="center">
+                    <div class="center">
                         <h5 class="center">Zakres prac:</h5>
                         <ul class="center">
                             <li>automatyka dwóch kotłów węglowych</li>
@@ -275,7 +372,7 @@
                             <li>przekaźniki bezpieczeństwa Endress+Hauser</li>
                             <li>przetworniki ciśnienia: Aplisens</li>
                         </ul>
-                    </p>
+		    </div>
                 </div>
                 <div class="col s6 m3 l3">
                     <a href="#portfolio-9_1-000" title="List referencyjny WZU S.A. Grudziądz." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-9_1-000-small.jpg" class="responsive-img" alt="List referencyjny WZU S.A. Grudziądz"/></a>
@@ -302,14 +399,14 @@
 
             </div>
         </div>
-    </div>
+	<!--</div>-->
     <div class="divider z-depth-1"></div>
     <div class="section">
         <div class="container">
             <div class="row valign-wrapper">
                 <div class="col s6 m6 l6">
                     <h4 class="center">Ciepłownia PEC Brodnica</h4>
-                    <p>
+                    <div>
                         <h5 class="center">Modernizacja kotła węglowego  WR-5</h5>
                         <h6 class="center">Zastosowane technologie i sprzęt:</h6>
                         <ul class="center">
@@ -318,7 +415,7 @@
                         <li>przekaźniki bezpieczeństwa Endress+Hauser</li>
                         <li>przetworniki ciśnienia: Aplisens</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div class="col s6 m3 l3 offset-l3 pull-l3">
                     <a href="#portfolio-17_1-000" title="List referencyjny Ciepłownia PEC Brodnica" class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-17_1-000-small.jpg" class="responsive-img" alt="List referencyjny Ciepłownia PEC Brodnica"/></a>
@@ -334,14 +431,14 @@
             </div>
         </div>
     </div>
-  <div class="divider z-depth-1"></div>
-        <div class="section">
+    <div class="divider z-depth-1"></div>
+    <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col s6 m6 l6">
                     <h4 class="center">Rauch Polska Sp. z o.o (przetwórstwo owoców)</h4>
-                    <p>
-                        <h5 class="center">Modernizacja gazowego kotła parowego typu UL-S 1000 (moc 6,5MW)<h5>
+                    <div>
+                        <h5 class="center">Modernizacja gazowego kotła parowego typu UL-S 1000 (moc 6,5MW)</h5>
                         <h6 class="center">Zastosowane technologie i sprzęt:</h6>
                         <ul class="center">
                             <li>sterownik Siemens S7-1200</li>
@@ -349,7 +446,7 @@
                             <li>przekaźniki bezpieczeństwa GESTRA</li>
                             <li>przetworniki ciśnienia: Aplisens</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div class="col s6 m3 l3 offset-l3 pull-l3">
                     <a href="#portfolio-13_1-000" title="List referencyjny Rauch Polska Sp. z o.o" class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-13_1-000-small.jpg" class="responsive-img" alt="List referencyjny Rauch Polska Sp. z o.o"/></a>
@@ -373,8 +470,8 @@
                 <div class="col s6 m6 l6">
                     <h4 class="center">Oczyszczalnia ścieków w Tarnobrzegu
                     (Pompy ciepła do odzysku energii ze ścieków)</h4>
-                    <p>
-                    <h5 class="center">Automatyka węzła odzysku energii ze ścieków w celu grzania wody użytkowej i CO<h5>
+                    <div>
+                    <h5 class="center">Automatyka węzła odzysku energii ze ścieków w celu grzania wody użytkowej i CO</h5>
                     <h6 class="center">Zastosowane technologie i sprzęt:</h6>
                     <ul class="center">
                         <li>sterownik Siemens S7-1200</li>
@@ -382,7 +479,7 @@
                         <li>Pompy ciepła Mitsubishi NX-W/H</li>
                         <li>przetworniki ciśnienia: Aplisens</li>
                     </ul>
-                    </p>
+                    </div>
                 </div>
                 <div class="col s6 m3 l3 offset-l3 pull-l3">
                     <a href="#portfolio-11_1-000" title="List referencyjny " class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-11_1-000-small.jpg" class="responsive-img" alt="List referencyjny "/></a>
@@ -391,7 +488,7 @@
                             <img src="img/portfolio-11_1-000-preview.jpg" class="responsive-img" alt="List referencyjny"/>
                         </div>
                         <div class="modal-footer">
-                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">(X)</a>
                         </div>
                     </div>
                 </div>
@@ -404,8 +501,8 @@
             <div class="row">
                 <div class="col s6 m6 l6">
                     <h4 class="center">Bydgoskie Zakłady Elektromechanicze BELMA S.A.</h4>
-                    <p>
-                    <h5 class="center">Modernizacja kotła węglowego  WML-2,5<h5>
+                    <div>
+                    <h5 class="center">Modernizacja kotła węglowego  WML-2,5</h5>
                     <h6 class="center">Zastosowane technologie i sprzęt:</h6>
                     <ul class="center">
                         <li>sterownik Schneider Modicon M340</li>
@@ -413,7 +510,7 @@
                         <li>przekaźniki bezpieczeństwa Endress+Hauser</li>
                         <li>przetworniki ciśnienia: Aplisens</li>
                     </ul>
-                    </p>
+                    </div>
                 </div>
                 <div class="col s6 m3 l3 offset-l3 pull-l3">
                     <a href="#portfolio-19_1-000" title="List referencyjny BELMA S.A." class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio-19_1-000-small.jpg" class="responsive-img" alt="List referencyjny BELMA S.A."/></a>
@@ -438,10 +535,10 @@
                     <p></p>
                 </div>
                 <div class="col s6 m6 l6">
-                    <a href="#portfolio-" title="List referencyjny " class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio--small.jpg" alt="List referencyjny "/></a>
+                    <a href="#portfolio-" title="List referencyjny " class="waves-effect waves-light modal-trigge waves-effect waves-light modal-trigger hoverable z-depth-1"><img src="img/portfolio- -small.jpg" alt="List referencyjny "/></a>
                     <div id="portfolio-" class="modal">
                         <div class="modal-content">
-                            <img src="img/portfolio--preview.jpg" alt="List referencyjny"/>
+                            <img src="img/portfolio- -preview.jpg" alt="List referencyjny"/>
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -458,7 +555,7 @@
         <div class="row">
         <div class="col s12 m8 l8 center" id="kontakt">
             <h4 class="white-text">Kontakt</h4>
-            <p class="grey-text text-lighten-4">
+            <div class="grey-text text-lighten-4">
                 <h5 class="">
                     <i class="small material-icons">phone</i><br/> Tel: 574 663 027
                 </h5>
@@ -466,16 +563,22 @@
                     <i class="small material-icons">email</i><br/>starczak.karol@apstar-automation.pl
                 </h5>
                 <h5>
+<<<<<<< HEAD
                     <i class="small material-icons">web</i><br/><a href="/" title="APSTAR Automation" class="white-text">www.apstar-automation.pl</a>
                 <h5>
                 <h4><i class="small material-icons">place</i><br/>al. Wojciecha Korfantego 138, 40- 156 Katowice<h5>
+=======
+                    <i class="small material-icons">web</i><br/><a href="/" title="APSTAR Automation Karol Starczak" class="white-text">www.apstar-automation.pl</a>
+                </h5>
+                <h4><i class="small material-icons">place</i><br/>al. Wojciecha Korfantego 138, 40- 156 Katowice</h4>
+>>>>>>> apstar
                 <h6>
                     NIP:7931498939
                 </h6>
-            </p>
+            </div>
         </div>
         <div class="col s12 m2 l2 offset-m2 offset-l2 push-m1 push-l1">
-            <p class="">
+            <div class="">
                 <h5 class="white-text">Mapa strony</h5>
                 <ul class="white-text">
                     <li>
@@ -505,18 +608,19 @@
                     <li>
                         <a href="#kontakt" class="white-text" title="Kontakt APSTAR Automation Karol Starczak">Kontakt</a>
                     </li>
-            </p>
+		</ul>
+            </div>
         </div>
+	</div>
         </div>
-    </div>
     <div class="footer-copyright">
         <div class="container">
-            <div class="badge">@COPYLEFT; ALL WRONGS RESERVED</div>
-            <div class="badge">@АВТОРСКОЕ ЛЕВО; ВСЕ ОШИБКИ ЗАЩИЩЕНЫ</dibv>
-            <div class="badge">@Copyleft – all rights reversed</div>
-
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            Copyright by <a href="http://apstar-automation.pl" title="Apstar Automation">apstar-automation.pl</a>
+        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
         </div>
+    </div>
+    <div class="footer-addons">
+        <img src="img/Naklejka-informacyjna-kolor-AiP.png" alt="Naklejka-informacyjna-kolor-AiP.png" style="width:100%;height:auto;"/>
     </div>
     </footer>
     <!-- jQuery CDN -->
