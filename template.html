@@ -71,6 +71,39 @@
         .card-title {
             text-shadow: -1px 1px 1px rgba(233,233,233,0.8);
         }
+
+        #referencje {
+            background: url(img/iStock-842883090.jpg_q75_1920x.jpg) no-repeat;
+        }
+        #referencje p {
+            background: #263238e0;
+            padding: 5px;
+        }
+        #nowoczesnosc {
+            position: relative; 
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('img/iStock-1054157972.jpg_q75_1920x.jpg');
+            display: flex;
+            background-size: cover;
+    
+        }
+        /* #nowoczesnosc::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background: rgba(23,23,23,0.8);
+        } */
+        #nowoczesnosc p {
+            background: #263238e0;
+            padding: 5px;
+        }
     </style> 
 </head>
 <body>
@@ -114,7 +147,7 @@
                     <div class="col l8 m8 z-depth-1 hide-on-small-only">
                         <div id="slider" class="carousel carousel-slider" data-indicators="true" data-ride="carousel">
                             <div class="carousel-item blue white-text" data-rel="#five!">
-                                <img src="img/belma_corel_v01.jpg" alt="Belma Corel">
+                                <img src="img/iStock-616899444.jpg_q75_1920x.jpg" alt="Automatyka przemysłowa">
                             </div>
                             <div class="carousel-item blue white-text" data-rel="#four!">
                                 <img src="img/fajne_zdjecia/IMG_20201014_131119.jpg" alt="Portfolio"/>
@@ -130,9 +163,9 @@
                             <div class="carousel-item green white-text" data-rel="#three!">
                                 <img src="img/fajne_zdjecia/Przeworsk_P&ID_PRZEWORSK3_v01.jpg" alt="Portfolio" />
                             </div>
-                                <!-- </div>
-                                </div>
-                            </div> -->
+                            <div class="carousel-item blue white-text" data-rel="#six!">
+                                <img src="img/iStock-166764970.jpg_q75_1920x.jpg" alt="Automatyka przemysłowa">
+                            </div>
                     </div>
                 </div>
             </div>
@@ -189,10 +222,13 @@
         </div>
         <div class="section gray lighten-3 fullPage " id="nowoczesnosc">
             <div class="row valign-wrapper">
-                <div class="col l2 m4 hide-on-small-only">
-                    <img src="img/IMG_20210311_124854.jpg" class="responsive-img" alt="Ładny obrazek"/>
-                </div>
-                <div class="col l10 m8 s12 grey-text text-lighten-5">
+                <!-- <div class="parallax-container"> -->
+                    <!-- <div class="parallax"><img src="img/iStock-1054157972.jpg_q75_1920x.jpg"></div> -->
+                  <!-- </div> -->
+                <!-- <div class="col l2 m4 hide-on-small-only"> -->
+                    <!-- <img src="img/iStock-1054157972.jpg_q75_1920x.jpg" class="responsive-img" alt="Ładny obrazek"/> -->
+                <!-- </div> -->
+                <div class="col l12 m12 s12 grey-text text-lighten-5">
                     <h4>Nowoczesność i innowacyjność:</h4>
                     <p>Stosujemy rozwiązania oparte o sieci przemysłowe Profinet, Modbus TCP i EtherCAT. Są to sieci bazujące na niezawodnym i szeroko rozpowszechnionym standardzie Ethernet.</p>
                     <h5>HMI oraz SCADA – wizualizacja procesu oraz zdalne sterowanie.</h5>
@@ -257,9 +293,9 @@
                         <p class="blue-grey darken-4 grey-text">Odznaczamy się solidnością wykonania i terminowym realizowaniem projektów. Firmy, które skorzystały z naszych usług są zadowolone z efektów końcowych. Stosujemy sprawdzony  sprzęt, który gwarantuje, że instalacje pracują niezawodnie jeszcze długo po zakończeniu okresu gwarancyjnego. Intuicyjny interfejs graficzny wizualizacji sprawia, że obsługa jest prosta, a informacje prezentowane są wyraźnie i czytelnie. Zaufały nam firmy z różnych branż takich jak ciepłownictwo, oczyszczanie ścieków, przemysł przetwórczy.
                         </p>
                     </div>
-                    <div class="col l4 m4 s12 blue-gray darken-5 blue-grey-text lighten-5-text z-depth-5">
-                        <img src="img/IMG_20210311_125454_v01.jpg" alt="referencje" class="responsive-img"/>
-                    </div>
+                    <!-- <div class="col l4 m4 s12 blue-gray darken-5 blue-grey-text lighten-5-text z-depth-5">
+                        <img src="img/iStock-842883090.jpg_q75_1920x.jpg" alt="referencje" class="responsive-img"/>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -582,6 +618,10 @@
     $("document").ready(function(){
         $(".button-collapse").sideNav();
     });
+
+    $(document).ready(function(){
+    $('.parallax').parallax();
+});
     </script>
 </body>
 </html>
